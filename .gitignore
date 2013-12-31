@@ -1,0 +1,9 @@
+*.dvi
+*.aux
+*.pdf
+*.log
+*.toc
+*.lot
+*.lof
+*.bcf
+*.run.xml
