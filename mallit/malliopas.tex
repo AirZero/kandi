@@ -1,15 +1,35 @@
+%\documentclass[utf8]{gradu3}
+% Jos työ on kandidaatintutkielma eikä pro gradu, käytä ylläolevan asemesta
 \documentclass[utf8,bachelor]{gradu3}
+% Jos kirjoitat englanniksi, käytä ylläolevan asemesta
+%\documentclass[utf8,english]{gradu3}
+% tai
+%\documentclass[utf8,bachelor,english]{gradu3}
+
 \usepackage{graphicx} % kuvien mukaan ottamista varten
+
+\usepackage{amsmath} % hyödyllinen jos tekstisi sisältää matikkaa,
+                     % ei pakollinen
+
 \usepackage{booktabs} % hyvä kauniiden taulukoiden tekemiseen
+
 % HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
 \usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
-\addbibresource{eetu_rantakangas_kandi.bib} % Lähdetietokannan tiedostonimi
+
+\addbibresource{malliopas.bib} % Lähdetietokannan tiedostonimi
+
 \begin{document}
-\title{Innovatiiviset opetusmenetelmät}
-\translatedtitle{Innovative teaching methods}
+
+\title{\LaTeX-tutkielmapohjan {gradu3} käyttö}
+\translatedtitle{Usage of the {gradu3} document class for \LaTeX\ theses}
 \studyline{Kaikki suuntautumisvaihtoehdot}
-\avainsanat{Opetusmenetelmä, innovaatio}
-\keywords{Teaching method, innovation}
+\avainsanat{%
+  \LaTeX,
+  {gradu3},
+  pro gradu -tutkielmat,
+  kandidaatintutkielmat,
+  käyttöohje}
+\keywords{\LaTeX, {gradu3}, Master's Theses, Bachelor's Theses, user's guide}
 \tiivistelma{%
   Tämä kirjoitelma on esimerkki siitä, kuinka
   {gradu3}-tutkielmapohjaa käytetään.  Se sisältää myös
@@ -30,11 +50,13 @@
   things as the Finnish tiivistelmä.
 }
 
-\author{Eetu Rantakangas}
-\contactinformation{\texttt{eetu.rantakangas@iki.fi}}
+\author{Antti-Juhani Kaijanaho}
+\contactinformation{Ag~C416.1, \texttt{antti-juhani.kaijanaho@jyu.fi}}
 % jos useita tekijöitä, anna useampi \author-komento
-\supervisor{-}
+\supervisor{Ohjaamaton työ}
 % jos useita ohjaajia, anna useampi \supervisor-komento
+
+\type{tutkielmapohjan esimerkki ja käsikirja} % et tarvitse tätä riviä tutkielmassa!
 
 \maketitle
 
@@ -73,22 +95,6 @@ Tutkielman tekijä
 
 \chapter{Johdanto}
 
-Tutkimusongelma: Nykymuotoisen koulun uudistamisen tarpeesta
-//TODO Tähän viittauksia erilaisiin koulujen uudistamistarveuutisiin sekä tutkimuksiin siitä kuinka koulut vastaavat nyky-yhteiskunnan tarpeita. Myös viittauksia kouluviihtyvyyteen
-//Opetuskokonaisuudet muuttumassa laajemmiksi ainerajat kaatumassa
-
-Suomen koulut ovat maailman huippua \parencite[][]{koulutHuippua}, mutta se ei tarkoita sitä, etteikö niitä voisi entisestään parantaa. Nykykouluissa oppilaat tuntevat olonsa kuormittuneiksi. \oarencite [][]{oppilaidenKuormitus} Lisäksi oppilaiden kouluviihtyvyys on huonoa. Tähän liittyy myös esimerkiksi koulukiusaaminen. \parencite[][]{vakivalta} Opettajien tyytymättömyyttä taas lisää esimerkiksi palkattoman työn määrä.\parencite[][]{palkatonTyo}
-
-Tutkimus keskittyy esittelemään erilaisia innovatiivisiksi miellettäviä opetusmenetelmiä sekä esittelemään sitä, miksi ne ovat innovatiivisia, ja kuinka nämä innovaatiot voivat auttaa opetuksen uudistuspyrkimyksissä. Lopuksi hahmotellaan suurempaa innovatiivisten menetelmien mahdollistamaa “perinteisen luokkahuonetilanteen” muutosta.
-
-Suomi pärjää hyvin Pisa-vertailuissa, mutta kouluissa viihtyminen ei ole huipputasoa \parencite[][]{kouluViihtyvyys}, ja oppilaiden kuormituksen tunne kouluissa on yleistynyt. \oarencite [][]{oppilaidenKuormitus} Tämän takia onkin seuraavaksi syytä kääntää katseet siihen, että miten viihtyvyyttä voitaisiin parantaa ja kuormituksen tunnetta vähentää. Esitellyt tavat eivät välttämättä ole suoria ratkaisuja siihen, ja ne ovat lähinnä yksittäisiä case-esimerkkejä. Niistä voi kuitenkin tulla merkittävä osa koulumaailman uudistustarpeen ratkaisukokonaisuutta. Ne auttavat hahmottamaan kaikkia niitä uusia tapoja ja mahdollisuuksia, joiden suuntaan toimintaa voidaan viedä. 
-
-Voidaan myös kysyä, että mitä apua on uusista toimintatavoista, jos oppilaat kokevat koulutyön kuormittavaksi. Jos toimintatapoja tulee vain lisää, ja vanhat säilyvät rinnalla, koulunkäynnistä tulee helposti vaikeammin ennustettavaa ja opintojen työtapojen yhtäaikainen määrä voi olla omiaan aiheuttamaan hämmennystä.
-
-Kuormittavuuden kannalta olisikin tärkeää, että uusia opetusmenetelmiä valittaessa huomioitaisiin niiden kuormittavuutta ja toisaalta myös kehitettäisiin ratkaisuja kuormittavuuteen. Jos oppilas esimerkiksi näkee läksyt ja deadlinet kerralla yhdestä paikkaa, voi hän helposti vain alkaa käydä listaa läpi ja merkkaamaan jo tehdyt, sen sijaan että muistelisi mitä kaikkea pitääkään tehdä ja musertuisi sekavan ja suuren läksykasan alle. Kun hahmottaa mitä pitää tehdä, ja voi merkata asian tehdyksi, niin työnteko on paljon mukavampaa. Myös läksyjen kerääntymistä voi pyrkiä välttämään samanlaisilla ratkaisuilla.
-
-
-
 Tutkielman varsinainen teksti alkaa aina luvulla ''Johdanto''.  Sen
 kirjoittamisen voi hyvin jättää aivan tutkielman kirjoitusprosessin
 loppuvaiheisiin.
@@ -114,6 +120,30 @@ Apua sen käyttämiseen voit saada Tutkielma-TeX"-postituslistalta
 (\url{http://lists.jyu.fi/mailman/listinfo/tutkielma-tex}).
 Kommentteja, parannusehdotuksia ja bugiraportteja voit lähettää myös
 minulle suoraan.
+
+\begin{figure}[h]\centering
+  \includegraphics[height=5cm,keepaspectratio]{opus-kissa}
+  \caption[\LaTeX-oppaani \parencite{kaijanaho03:_latex_ams_latex}
+  kansikuva]{\LaTeX-oppaani \parencite{kaijanaho03:_latex_ams_latex}
+    kansikuva on tässä vain esimerkkinä kuvan ottamisesta mukaan
+    tutkielmaan.}
+  \label{fig:opus-kissa}
+\end{figure}
+
+Tämä malli olettaa, että tunnet \LaTeX-järjestelmän käytön perusasiat.
+Alkuperäinen \LaTeX-kirja \parencite{lamport94:_latex} on järjestelmän
+virallinen käyttöopas.  Olen myös itse kirjoittanut aiheesta
+opaskirjan \parencite{kaijanaho03:_latex_ams_latex}.\footnote{Monet
+  \TeX- ja \LaTeX-kirjat käyttävät kansikuviensa aiheena kissaeläintä.
+  Oman monisteeni kansikuva oli varsin abstrakti kisuli,
+  ks.~kuvio~\ref{fig:opus-kissa}.}  Hyvä suomenkielinen, vapaasti
+verkosta saatavilla oleva opas on \textit{Pitkänpuoleinen johdanto
+  \LaTeXe:n käyttöön} \parencite{oetiker:_pitka_latex}.  Muista lukea
+tämän mallin ladotun version (PDF tms) lisäksi sen \LaTeX-lähdekoodi!
+
+Huomaa, että tämän mallin esittämät ohjeet eivät ole millään tavalla
+virallisia.  Noudata aina ohjaajasi neuvoja vaikka ne poikkeaisivatkin
+tämän mallin ohjeista.
 
 \chapter{Tutkielman rakenne}
 
@@ -169,7 +199,7 @@ töissä on syytä noudattaa kulloisenkin tutkimustradition käytänteitä
 Teoriaosa perustuu lähes aina yksinomaan lähdekirjallisuuteen.  Myös
 kontribuutio"-osassa on lähteiden käyttö toisinaan tarpeen.
 
-Muista varoa plagiointia. Jos kopioit joko sellaisenaan tai lievästi
+Muista varoa plagiointia.  Jos kopioit joko sellaisenaan tai lievästi
 muutettuna (tai esimerkiksi englannista suomennettuna) tekstiä jostain
 lähteestä, tee selväksi, että olet tehnyt niin.  Merkitse lainaukset
 (lainausmerkeillä tai muulla selkeällä tavalla) ja anna täsmällinen
@@ -633,17 +663,5 @@ Aiemmin esiteltyjen lisäksi gradu3 tarjoaa seuraavat lisäominaisuudet:
 \item Komento \string\graduclsdate\ sisältää käytössä olevan gradu3:n
   julkaisupäivämäärän ja \string\graduclsversion\ sen versionumeron.
 \end{itemize}
-
-%\begin{thebibliography}
-% \bibitem{koulutHuippua}
-%Kupari, Välijärvi, Andersson, Arffman, Nissinen, Puhakka, Vettenranta \textit{Pisa 2012 ensituloksia}, 
-%Opetus- ja kulttuuriministeriön julkaisuja 2013:20
-%Gummerus, Jyväskylä 2014.
-%\end{thebibliography}
-
-
-
-
-
 
 \end{document}
