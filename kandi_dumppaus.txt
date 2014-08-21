@@ -1,0 +1,23 @@
+\section{Johdon rooli innovatiivisten opetusmenetelmien käyttöönotossa}
+Johto pystyy vaikuttamaan innovatiivisten opetusmenetelmien käyttöönottoon erityisesti kannustamalla opettajia. Lisäksi kannattaa järjestää koulutusta laitteisiin ja ohjelmistoihin, ja valita koulutuksessa parhaiten pärjännyt osuus henkilökunnasta toimimaan jatkossa muiden apuna laitteiden ja ohjelmistojen käytössä. Johto pystyy myös vaikuttamaan mahdollisuuksiin opettaa eri tavoilla esimerkiksi lisäämällä kaksoistuntien määrää, jolloin opettajat voivat viedä oppilaat ulos tai tehdä muita aikaa enemmän vaativia juttuja. 
+
+
+
+
+\section{Opettaminen pelejä kehittämällä}
+Opettaa voi myös pelejä tekemällä. Esimerkiksi joissain kouluissa on pelikerhoja, joissa oppilaat tekevät itse opetuspelejä opettajien tarpeisiin. Pelejä voidaan tehdä esimerkiksi älytaulusovellusten tai powerpointin avulla. 
+% https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
+
+
+\section{Erilainen luokkahuone}
+\subsection{Prometheus-leirit}
+Prometheus-leirien pohja-ajatuksena toimii utealias pohdinta. Tarkoitus on herättää kysymyksiä, eikä varsinaisesti antaa faktatietoa. Tämä johtaa perinteiseen kouluopetukseen verrattuna hyvin erilaisiin käytäntöihin. Käytännössä ajatukset heräävät parhaiten ihmisten välisissä keskusteluissa, joten keskusteluita eri kokoisilla ryhmillä käydään hyvin paljon. Keskustelut kuitenkin auttavat myös herättämään aitoa mielenkiintoa maailmaa ja asioita kohtaan. Lisäksi ne luovat aktiivisempaa ja osallistuvampaa ilmapiiriä kuin perinteinen kouluopetus. 
+
+Keskustelun vetäjän tarvitsee yleensä miettiä korkeintaan muutama täky keskusteluun ja ryhmä keskustelee tämän avulla sujuvasti jopa tunnin. Tietysti keskusteluissa on tavoitteena käydä läpi joitain tiettyjä aiheita, joten keskustelun vetäjän pitää pitää huolta keskustelun raiteilla pysymisestä. Toisaalta jos sivuraiteidenkin asiat vastaavat asetettuja tavoitteita niin niilläkin voidaan viipyä pitkiä aikoja.
+
+Lähteet: Prometheuksen koulutukset, http://protu.fi/prometheus-leirit/teemat-ja-ohjelma
+
+\subsection{Flipped classroom}
+Matematiikan puolella ehkä eniten puhetta viime aikoina herättänyt opetusmenetelmä on ns. flipped classroom. Oppilaille ei opeteta asioita koulussa, vaan oppilaat opettelevat asiat kotona, ja koulussa keskitytään laskemiseen. Jos jotain ei ole ymmärretty, niin opettaja neuvoo. Tällä tavoin opettajalle jää enemmän aikaa oppilaiden henkilökohtaiseen ohjaukseen kuin mallissa, jossa opettaja aina esittelisi luokan edessä uuden asian. Vastaavasti opettajan on mahdollista ottaa koko ryhmän kanssa esiin vain kaikkein haastavimmiksi osoittautuneet asiat. Käytännössä jokainen opiskelija opiskelee omaan tahtiinsa, ja opettaja auttaa tarvittaessa. Tämä myös rikkoo perinteisiä kurssi- ja vuosiluokkarajoja ja opiskelijoiden oma tahti jatkuu läpi koko koulun. Tavoitteena kaikilla on kuitenkin täyttää opetussuunnitelman asettamat vaatimukset. Samalla saadaan hyöty irti mahdollisista sähköisistä ohjelmista, jotka antavat sopivantasoista laskettavaa ja korjaavat heti jos vastaus meni väärin.
+% http://maot.fi/oppimisymparisto/oppimisympariston-perusidea/
+
