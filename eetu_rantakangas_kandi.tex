@@ -39,44 +39,14 @@
 
 \maketitle
 
-\preface
-Tähän voit kirjoittaa tutkielmasi esipuheen. Tutkielmissa on
-harvemmin esipuheita, mutta jos sen kirjoitat, pidä se lyhyenä
-(enintään sivu).
-
-Esipuheen tulisi kertoa ennemminkin tutkielmaprosessista kuin
-tutkielman sisällöstä.  Esimerkiksi jos tutkielman aiheen valintaan
-tai tekemiseen liittyy jokin erikoinen sattumus, voit siitä kertoa
-esipuheessa.  Tapana esipuheessa on myös kiittää nimeltä mainiten
-tärkeimpiä tutkielman tekemisessä auttaneita ihmisiä -- ainakin
-ohjaajia, puolisoa ja lapsia.  (Yleensä perhe on auttanut vähintään
-tukemalla ja kannustamalla.)
-
-Esipuhe kannattaa kirjoittaa minä-muodossa. Tavanomaista on myös
-allekirjoittaa se.
-
-Jyväskylässä \today
-
-\bigskip
-
-Tutkielman tekijä
-
-\begin{thetermlist}
-\item[\TeX] Donald Knuthin 1977--1989 laatima eräajotyyppinen
-  ladontajärjestelmä \parencite[ks.][]{knuth86:_texbook}. 
-\item[\LaTeX] \TeX in \parencite[ks.][]{knuth86:_texbook} päälle
-  rakennettu rakenteisten kirjoitelmien ladontaan tarkoitettu
-  järjestelmä \parencite[ks.][]{lamport94:_latex}.  Siitä on nykyään
-  käytössä versio \LaTeXe.
-\end{thetermlist}
 
 \mainmatter
 
 \chapter{Johdanto}
 
-Tutkimusongelma: Nykymuotoisen koulun uudistamisen tarpeesta
-//TODO Tähän viittauksia erilaisiin koulujen uudistamistarveuutisiin sekä tutkimuksiin siitä kuinka koulut vastaavat nyky-yhteiskunnan tarpeita. Myös viittauksia kouluviihtyvyyteen
-//Opetuskokonaisuudet muuttumassa laajemmiksi ainerajat kaatumassa
+%Tutkimusongelma: Nykymuotoisen koulun uudistamisen tarpeesta
+%//TODO Tähän viittauksia erilaisiin koulujen uudistamistarveuutisiin sekä tutkimuksiin siitä kuinka koulut vastaavat nyky-yhteiskunnan tarpeita. Myös viittauksia kouluviihtyvyyteen
+%//Opetuskokonaisuudet muuttumassa laajemmiksi ainerajat kaatumassa
 
 Suomen koulut ovat maailman huippua \parencite[][]{koulutHuippua}, mutta se ei tarkoita sitä, etteikö niitä voisi entisestään parantaa. Nykykouluissa oppilaat tuntevat olonsa kuormittuneiksi. \parencite [][]{oppilaidenKuormitus} Lisäksi oppilaiden kouluviihtyvyys on huonoa. Tähän liittyy myös esimerkiksi koulukiusaaminen. \parencite[][]{vakivalta} Opettajien tyytymättömyyttä taas lisää esimerkiksi palkattoman työn määrä. \parencite[][]{palkatonTyo}
 
@@ -97,12 +67,9 @@ Innovaatiolla tarkoitetaan "idean tai keksinnön muuttamista tuotteeksi tai palv
 Tässä työssä tarkasteltavat opetusmenetelmät on rajattu ohjelmisto- ja laitteistoratkaisuihin. Kuitenkin myös esimerkiksi opetusmetodit voivat muuttua tietotekniikan avulla. Uusia lisäarvoa tuovia metodeita pystytään kehittämään myös täysin ilman tietotekniikkaa. Esimerkiksi flipped classroom voi toimia periaatteessa ilman tietotekniikkaakin. Tietotekniikkaa hyödynnettäessä oppilaat voivat kotona katsoa Youtube-videon seuraavan tunnin aiheesta ja tunnille tullessaan alkaa tehdä suoraan tehtäviä ilman opettajan johdanto-osuutta. Toisaalta oppilaat voisivat myös lukea johdanto-osuuden perinteisestä kirjasta. Flipped classroomissa ei kuitenkaan sinänsä tarvita mitään kohdistettua ohjelmistoratkaisua, joten esimerkiksi siihen ei tässä työssä sen syvemmin perehdytä. \parencite[][]{flipped} Myös esimerkiksi luokkahuoneen rakenne voidaan muuttaa perinteisestä pulpettimallisesta joksikin muuksi, jolloin voidaan käyttää erilaisia työtapoja kuin perinteisessä luokkahuoneessa.
 
 
-
-
-
 \section{Innovatiivisten opetusmenetelmien käyttöönoton vaatimukset}
 
-\subsection{valtionhallinnolliset ratkaisut}
+\subsection{hallinnolliset ratkaisut}
 Uusien ratkaisujen tuominen opetukseen ja koulumaailmaan ei ole täysin mutkatonta. Singaporessa koulujärjestelmää kehitetään tehokkaasti ja järjestelmällisesti. Singaporen malli mahdollistaa konkreettiset pitkän tähtäimen strategiat. Suomessa on enemmän hallinnon tasoja, mutta resursointi hallintoon on vähäisempää. Singaporessa esimerkiksi tietokoneet tarjotaan valtion puolelta kilpailutettuna, mutta kouluilla on myös mahdollisuus tehdä omat hankinnat, jos valtion tarjoamat vaihtoehdot eivät tyydytä tarpeita. Ylätason hallinto tukee esimerkiksi tällä tavalla kehittämistä voimakkaammin kuin Suomessa. \parencite[][]{koulunArki} 
 
 //Ongelmat
@@ -137,18 +104,77 @@ Johto pystyy vaikuttamaan innovatiivisten opetusmenetelmien käyttöönottoon er
 Opetuksen pedagogisella tvt-tuella tarkoitetaan tukea, joka ei auta opettajaa niinkään teknisesti, vaan pääasiassa auttaa opettajaa käyttämään opetuksessaan ja liittämään opetukseensa tieto- ja viestintäteknologiaa hyödyntävää materiaalia. (ritva-liisa). Tällä hetkellä on ainakin kaksi erilaista toimivaksi havaittua lähestymistapaa tähän ongelmaan. Toinen on tietotekniikan opettajan tarjoama pedagoginen tvt-tuki ja toinen taas muiden opettajien tarjoama. Muiden opettajien tarjoama tuki saadaan aikaiseksi esimerkiksi kouluttamalla kaikki opettajat käyttämään tietoteknistä ratkaisua tai välinettä, ja näistä opettajista perataan ne, jotka omaksuivat käytön parhaiten, eli noin 1/10. Tämän opettajajoukon tehtävänä on jatkossa tukea muita tvt-välineiden käytössä. Tämä toimii esimerkiksi älytaulun tai muiden laitteiden kannalta varsin hyvin, mutta pitkällä aikavälillä ei välttämättä auta opettajia omaksumaan uusia välineitä ja ratkaisuja, koska niistä paras asiantuntemus on yleensä tietotekniikan opettajalla tai koulun ulkopuolisilla asiantuntijoilla. Joka tapauksessa tällainen ratkaisu on toteutettavissa koulun henkilöstömäärää lisäämättä, joten muiden opettajien vertaistuen hyödyntäminen on erittäin suositeltavaa.
 
 \subsection{Flipped classroom}
+%sido paremmin
 Matematiikan puolella \parencite[][]{maot} ehkä eniten puhetta viime aikoina herättänyt opetusmenetelmä on ns. flipped classroom.\parencite[][]{flipped} Oppilaille ei opeteta asioita koulussa, vaan oppilaat opettelevat asiat kotona, ja koulussa keskitytään laskemiseen. Jos jotain ei ole ymmärretty, niin opettaja neuvoo. Tällä tavoin opettajalle jää enemmän aikaa oppilaiden henkilökohtaiseen ohjaukseen kuin mallissa, jossa opettaja aina esittelisi luokan edessä uuden asian. Vastaavasti opettajan on mahdollista ottaa koko ryhmän kanssa esiin vain kaikkein haastavimmiksi osoittautuneet asiat. Käytännössä jokainen opiskelija opiskelee omaan tahtiinsa, ja opettaja auttaa tarvittaessa. Tämä myös rikkoo perinteisiä kurssi- ja vuosiluokkarajoja ja opiskelijoiden oma tahti jatkuu läpi koko koulun. Tavoitteena kaikilla on kuitenkin täyttää opetussuunnitelman asettamat vaatimukset. Samalla saadaan hyöty irti mahdollisista sähköisistä ohjelmista, jotka antavat sopivantasoista laskettavaa ja korjaavat heti jos vastaus meni väärin.
 % http://maot.fi/oppimisymparisto/oppimisympariston-perusidea/
 
-\subsection{Opettaminen pelejä kehittämällä}
-Opettaa voi myös pelejä tekemällä. Esimerkiksi joissain kouluissa on pelikerhoja, joissa oppilaat tekevät itse opetuspelejä opettajien tarpeisiin. Pelejä voidaan tehdä esimerkiksi älytaulusovellusten tai powerpointin avulla. Hyvät ratkaisut saadaan otettua suoraan käyttöön opetuksessa. \parencite[][]{peleja}
 
 
 % http://www.katsomo.fi/?progId=378128
 
 % http://yle.fi/elavaarkisto/artikkelit/tietokoneet_koulujen_opetuksen_tukena_105423.html#media=105426
 
-\section{Asioita joita sähköisten opetusmenetelmien kehittämisessä kannattaa huomioida ja tapoja joilla ne tuovat lisäarvoa}
+
+\chapter{Innovatiiviset menetelmät}
+
+\section{Materiaalin ja kokemusten luokittelu ja jakaminen}
+Opetushallituksen sivuilta löytyy hyvät käytännöt-osio, jossa on listattuna monenmoisia opettajien opetuksessaan hyödyntämiä ideoita. \parencite[][]{hyvatkaytannot} Kuka tahansa opettaja pystyy lähettämään sivustolle omia ideoitaan. Tällaiset kokoavat sivustot nousevatkin yhä tärkeämpään asemaan materiaalin määrän koko ajan kasvaessa. Samantapaisia kokoavia sivustoja on myös esimerkiksi opetusmateriaalien ja pelien löytämiseen ja jakamiseen. Esimerkiksi graphite.orgista löytyy tagiperustaista sähköisen oppimateriaalin jaottelua. lemill.net puolestaan tarjoaa mahdollisuuden jakaa omaa tai muiden oppimateriaalia sekä merkitä materiaalin käyttöoikeudet.
+% http://www.graphite.org
+% http://lemill.net
+% http://www.peda.net/veraja/konnevesi/lukio/ophhanke2010/pelit
+
+\section{Robotit opetuksessa}
+Suosittu tapa käyttää robotteja opetuksessa ovat legorobotit. Ohjelmoitavia Legoja on käytetty opetuksessa Suomessa  Lego Control Labeista alkaen. \parencite[][]{skrolliRobot} Control labeilla pystyttiin kasaamaan paikallaan olevia laitteita joita kontrolloitiin tietokoneelta. Varsinaiset Legorobotit tulivat käyttöön Lego Mindstorms-sarjan myötä. Sarjan robottien keskusyksikköön pystyttiin luomaan komentosarjoja yhdistelemällä Lego-palikan näköisiä osia mukana tulleessa ohjelmistossa. Niiden avulla robotin sai esimerkiksi reagoimaan valosensoriin tulevaan ärsykkeeseen liikkumalla. Legoroboteille on mahdollista kirjoittaa myös ohjelmia ohjelmointikielillä, ja tätä lähestymistapaa onkin käytetty esimerkiksi yliopistojen ohjelmoinnin opetuksessa. \parencite[][]{korppirobo} \parencite[][]{hesarobo}
+
+\section{Oppimispelit ja sovellukset}
+Oppimispelit ja sovellukset pystytään jakamaan kahteen pääluokkaan: ensisijaisesti viihdyttävät ja ensisijaisesti opettavat. Jälkimmäisten hyödyllisyyttä pystyy ehkä parhaiten arvioimaan viihdyttävyyden määrällä ja oppimisen tehokkuudella. Jos sovelluksen käyttö on vähintään yhtä viihdyttävää kuin tunnilla olo, ja siitä oppii yhtä hyvin tai paremmin asiat kuin perinteisellä oppitunnilla, sovellus on yksinkertaisesti hyvä. Näiden asioiden mittaaminen vaatii kuitenkin suhteellisen laajat koejärjestelyt, joten yleensä perstuntuma on paras mittari.
+
+\subsection{esimerkki pelillistämisestä ja tehokkuudesta}
+Hyvä esimerkki tehokkaasta oppimissovelluksesta on Memrise.\parencite[][]{memrise} Sivuston tarkoitus on opettaa kielten sanastoja. Perinteiseen sanakirjaan verrattuna sivustossa on valtavasti etuja. Se esimerkiksi tietää, kuinka nopeasti ja millä tavoin opit parhaiten. Tämä perustuu käyttäjädatan hyödyntämiseen - tiedetään, monta toistoa sana tarvitsee, että ihmiset sen keskimäärin oppivat. Lisäksi tiedetään, että kuinka monta kertaa kannattaa antaa tehtävä, jossa kysytään: “Mikä sana on näistä neljästä?”, ja kuinka monta kertaa kannattaa kysyä, että: “Miten sana kirjoitetaan?”. Etuna sanakirjaan on myös se, että sivusto myös tarjoaa sanoihin liittyviä muistisääntöjä kuvina ja lauseina sekä antaa sanoista ääntämisesimerkit. Nämä helpottavat muistamista entisestään, koska oppiminen on monikanavaisempaa. Sivusto myös pyytää “kastelemaan” opitut sanat tietyin väliajoin, etteivät ne unohdu.
+
+Sivustolla on myös jonkin verran pelillisyyttä. Eniten kyseistä kielikurssia viikon aikana käyneet näkyvät ranking-listoilla top10:ssä ja sanojen opiskelussa käytetään kukkavertauksia. Ensin kasvi istutetaan, jonka jälkeen kerätään sato. Tässä vaiheessa sana on opittu. Tämän jälkeen täytyy kasvia vielä kastella, jotta se ei kuole, eli opittu ei unohdu. 
+
+Memrisestäkin toisaalta puuttuu kaikki opittua soveltava. Sieltä ei löydy lukemista joka liittyisi juuri opittuihin sanoihin tai esimerkiksi mahdollisuutta tuottaa tekstiä tai keskustella. Myöskään kielioppia ei sieltä opi. Näiden asioiden opettaminen jääkin opettajan ja perinteisen kieltenopetuksen vastuulle, jos jokin muu oppimisratkaisu ei niitä pysty tarjoamaan.
+
+\subsection{Opettajan ja oppilaan tukeminen ohjelman tuottamien tietojen avulla}
+Opettajan ja oppilaan oppimista voidaan auttaa hyödyntämällä ohjelmiston tuottamaa dataa. Esimerkiksi 10Monkeys -sovellus muistaa mitä oppilas on aiemmin oppinut, ja oppilas näkee oman edistymisensä. Lisäksi opettaja voi seurata kaikkien oppilaiden edistymistä yksilöinä, sekä koko luokkana. Tästä on apua sen havaitsemissa, että kuka oppilaista on eniten avun tarpeessa, ja että kuinka nopeasti luokka kokonaisuutena etenee.
+
+\subsection{Maksuttomat sekä kaupalliset viihdepelit opetuksessa}
+Myös muita kuin opetuspelejä voidaan käyttää hyödyksi opetuksessa. Oppilailla voidaan esimerkiksi peluuttaa Sims 2:sta ja sen jälkeen antaa tehtäväksi kirjoittaa pelin pohjalta kaunokirjallisia tekstejä.
+% http://www.oph.fi/julkaisut/2012/laatua_e_oppimateriaaleihin
+
+\subsection{Opettaminen pelejä kehittämällä}
+Opettaa voi myös pelejä tekemällä. Esimerkiksi joissain kouluissa on pelikerhoja, joissa oppilaat tekevät itse opetuspelejä opettajien tarpeisiin. Pelejä voidaan tehdä esimerkiksi älytaulusovellusten tai powerpointin avulla. Hyvät ratkaisut saadaan otettua suoraan käyttöön opetuksessa. \parencite[][]{peleja}
+
+
+\section{Paikannuspohjaiset oppimisratkaisut}
+Myös GPS-paikannukseen perustuvia oppimisratkaisuja on alkanut ilmestyä. Näistä esimerkkejä ovat esimerkiksi Hei Joe ja CityNomadi -ympäristöt. Yleensä GPS-pohjaiset ratkaisut ovat parhaimmillaan kun ympäristö pystytään liittämään mukaan mahdollisimman tukevasti. Esimerkiksi kaupungin historiaan liittyvien kohteiden kiertely ja kohteissa niihin liittyvien tehtävien tekeminen toimivat hyvin.
+% http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti%2FPage%2Fjuttusivu&cid=1351276519632&juttuID=1355755427510
+% https://citynomadi.com
+
+Opetusta voi viedä arkiympäristöihin esimerkiksi gps-pohjaisilla oppimisratkaisuilla, kuten CityNomadi tai Hei Joe -sovelluksilla. Näissä sovelluksissa voi olla valmiita reittejä, tai oppilaat voivat tehdä niitä myös itse. Reitit voivat olla esimerkiksi kaupungin patsaiden kiertelyä, ja kun saavutaan patsaalle, voidaan lukea patsaan esittämään henkilöön liittyvä tarina. Myös esimerkiksi liikuntaan voi kannustaa monella tapaa. Moskovassa metroautomaatista saa lipun ilmaiseksi, jos tekee 30 jalkakyykkyä.
+
+% http://www.hs.fi/ulkomaat/a1383884611093?jako=e5772b9fe7f9a22f030e592a36c5b9d7&ref=og-url
+% https://citynomadi.com
+% http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti%2FPage%2Fjuttusivu&cid=1351276519632&juttuID=1355755427510
+
+\section{Älytaulut opetuksessa}
+Älytaulut ovat luokkahuonetta mullistava tekijä monessa mielessä. Niille opettajien on hyvin helppo tehdä interaktiivista materiaalia, ja myös powerpoint-esityksiin saa eloa, kun onkin aktiivinen toimija kuten liitutaululla, eikä vain dianvaihtaja. Myös oppilaille saa kehitettyä monenlaisia tehtäviä, ja taulut soveltuvat hyvin myös oppimissovellusten ja pelien käyttämiseen. Sovellusta käyttää vain yksi, mutta muiden on helppo seurata tapahtumia. Taululla saa myös helposti aktivoitua oppilaita esimerkiksi erilaisilla järjestelytehtävillä.
+
+\section{Padit opetuksessa}
+Tauluja seuraavat padit, joilla jokainen oppilas voi itsenäisesti tehdä samantyylisiä tehtäviä kuin taulullakin. Padit ovat parhaimmillaan omatoimisessa tehtävien teossa, sillä ne antavat välitöntä palautetta tehtävistä ja jokainen oppilas voi edetä omaan tahtiin, tehtäviä ei tarvitse erikseen tarkistaa, koska padit kertovat jos vastaus meni väärin. Myös yhteistyötä pystytään padien tai tietokoneiden avulla.
+Pilvipohjaiset toimisto-ohjelmistot opetuksessa
+Tietokoneilla esimerkiksi pilvipohjaiset toimisto-ohjelmistot mahdollistavat paljon asoiita jotka aiemmin olivat jopa mahdottomia. Oppilaat voivat tehdä luontevasti samaa ryhmätyötä yhtä aikaa, jakaa keskeneräisetkin tuotokset reaaliaikaisesti koko luokan kanssa ja tehdä töitä myös koulupäivän jälkeen ilman, että niitä tarvitsisi kantaa kotiin.
+
+
+\section{Tulokset}
+// Ennen Internetiä oli täysin mahdollista, että opettaja tiesi aiheista eniten ja pystyi myös tätä tietoa oppilailleen jakamaan. Nykyään kuitenkin monissa aineissa oppilaat pystyvät itse käymään erittäin hyvin jäsenneltyjä tietolähteitä lävitse varsin nopeasti, jolloin opettaja jää enemmän statistin rooliin. Opettajan rooliksi muotoutuukin entistä enemmän valmentajan rooli, jossa hän pyrkii ohjaamaan oppilaiden yksilöllistä oppimista mahdollisimman tehokkaasti ja auttamaan ymmärtämään juuri niissä kohdissa jossa kullakin on ongelmia, muiden asioiden jäädessä enemmän itse opiskelun varaan.
+
+Innovatiivisia opetusmenetelmiä käyttämällä esimerkiksi harjoitustehtävien tarkastuksen voi pitkälti jättää koneiden huoleksi, jolloin aiemmin yhteisesti tähän käytetty aika vapautuu oppilaiden neuvomiseen tehtävissä yksilöllisesti. Lisäksi koneen tarkistaessa tehtävät heti kun ne on tehnyt, oppilas saa palautteen ja osaa kysyä apua oikeaan ratkaisuun heti, sen sijaan, että apua saisi vasta sitten kun havaitsee yhteisen tarkistuksen yhteydessä vastanneensa väärin. Usein tässä vaiheessa apu jää myös saamatta, koska ollaan jo siirtymässä seuraavaan aiheeseen tai “tehtävät on täytynyt olla vain tehtynä, muttei oikein”.
+
+Myös opiskelun viihdyttävyyttä pystytään lisäämään varsin keveinkin teknisin ratkaisuin. Oppilaalle eteneminen voidaan esimerkiksi näyttää selkeästi kiinnostavalla grafiikalla, kun aiemmin se on näkynyt vain kirjan sivujen etenemisenä. Aiemminkin opettaja on tietysti voinut palkita oppilaita esimerkiksi tarroilla vihkoon, mutta koneen antama tunnustus vaikuttaisi erityisen toimivalta, mahdollisesti koska palaute on välittömämpää.
+
+\section{Sähköisten opetusmenetelmien kehittämisessä huomioitavia asioita ja niiden tuoma lisäarvo}
 % todo pura lausemuotoon.
 1. Statistiikan hyödyntäminen.
 Pelien statistiikkaa voi hyödyntää esimerkiksi seuraamalla koko luokan edistymistä, vertailla sitä aiempien vuosien luokkiin tai rinnakkaisluokkiin jne.
@@ -180,60 +206,6 @@ Jos ratkaisun käyttöön tarvitsee erikseen kouluttaa, niin haasteeksi tulee op
 5. Opetussuunnitelmaan sisällöllisesti istuva.
 Sähköisten ratkaisujen tulisi istua opetussuunnitelmaan, jotta niiden käyttö on helposti perusteltavissa.
 6. Jos kouluun, täytyy olla tehokas tapa oppia, jos kotiin ei niin väliä.
-
-\chapter{Innovatiiviset menetelmät}
-
-\section{Materiaalin ja kokemusten luokittelu ja jakaminen}
-Opetushallituksen sivuilta löytyy hyvät käytännöt-osio, jossa on listattuna monenmoisia opettajien opetuksessaan hyödyntämiä ideoita. \parencite[][]{hyvatkaytannot} Kuka tahansa opettaja pystyy lähettämään sivustolle omia ideoitaan. Tällaiset kokoavat sivustot nousevatkin yhä tärkeämpään asemaan materiaalin määrän koko ajan kasvaessa. Samantapaisia kokoavia sivustoja on myös esimerkiksi opetusmateriaalien ja pelien löytämiseen ja jakamiseen. Esimerkiksi graphite.orgista löytyy tagiperustaista sähköisen oppimateriaalin jaottelua. lemill.net puolestaan tarjoaa mahdollisuuden jakaa omaa tai muiden oppimateriaalia sekä merkitä materiaalin käyttöoikeudet.
-% http://www.graphite.org
-% http://lemill.net
-% http://www.peda.net/veraja/konnevesi/lukio/ophhanke2010/pelit
-
-\section{Robotit opetuksessa}
-Suosittu tapa käyttää robotteja opetuksessa ovat legorobotit. Ohjelmoitavia Legoja on käytetty opetuksessa Suomessa  Lego Control Labeista alkaen. \parencite[][]{skrolliRobot} Control labeilla pystyttiin kasaamaan paikallaan olevia laitteita joita kontrolloitiin tietokoneelta. Varsinaiset Legorobotit tulivat käyttöön Lego Mindstorms-sarjan myötä. Sarjan robottien keskusyksikköön pystyttiin luomaan komentosarjoja yhdistelemällä Lego-palikan näköisiä osia mukana tulleessa ohjelmistossa. Niiden avulla robotin sai esimerkiksi reagoimaan valosensoriin tulevaan ärsykkeeseen liikkumalla. Legoroboteille on mahdollista kirjoittaa myös ohjelmia ohjelmointikielillä, ja tätä lähestymistapaa onkin käytetty esimerkiksi yliopistojen ohjelmoinnin opetuksessa. \parencite[][]{korppirobo} \parencite[][]{hesarobo}
-
-\section{Oppimispelit ja sovellukset}
-Oppimispelit ja sovellukset pystytään jakamaan kahteen pääluokkaan: ensisijaisesti viihdyttävät ja ensisijaisesti opettavat. Jälkimmäisten hyödyllisyyttä pystyy ehkä parhaiten arvioimaan viihdyttävyyden määrällä ja oppimisen tehokkuudella. Jos sovelluksen käyttö on vähintään yhtä viihdyttävää kuin tunnilla olo, ja siitä oppii yhtä hyvin tai paremmin asiat kuin perinteisellä oppitunnilla, sovellus on yksinkertaisesti hyvä. Näiden asioiden mittaaminen vaatii kuitenkin suhteellisen laajat koejärjestelyt, joten yleensä perstuntuma on paras mittari.
-
-Hyvä esimerkki tehokkaasta oppimissovelluksesta on http://memrise.com. Sivuston tarkoitus on opettaa kielten sanastoja. Perinteiseen sanakirjaan verrattuna sivustossa on valtavasti etuja. Se esimerkiksi tietää, kuinka nopeasti ja millä tavoin opit parhaiten. Tämä perustuu käyttäjädatan hyödyntämiseen - tiedetään, monta toistoa sana tarvitsee, että ihmiset sen keskimäärin oppivat. Lisäksi tiedetään, että kuinka monta kertaa kannattaa antaa tehtävä, jossa kysytään: “Mikä sana on näistä neljästä?”, ja kuinka monta kertaa kannattaa kysyä, että: “Miten sana kirjoitetaan?”. Etuna sanakirjaan on myös se, että sivusto myös tarjoaa sanoihin liittyviä muistisääntöjä kuvina ja lauseina sekä antaa sanoista ääntämisesimerkit. Nämä helpottavat muistamista entisestään, koska oppiminen on monikanavaisempaa. Sivusto myös pyytää “kastelemaan” opitut sanat tietyin väliajoin, etteivät ne unohdu.
-
-Sivustolla on myös jonkin verran pelillisyyttä. Eniten kyseistä kielikurssia viikon aikana käyneet näkyvät ranking-listoilla top10:ssä ja sanojen opiskelussa käytetään kukkavertauksia. Ensin kasvi istutetaan, jonka jälkeen kerätään sato. Tässä vaiheessa sana on opittu. Tämän jälkeen täytyy kasvia vielä kastella, jotta se ei kuole, eli opittu ei unohdu. 
-
-Memrisestäkin toisaalta puuttuu kaikki opittua soveltava. Sieltä ei löydy lukemista joka liittyisi juuri opittuihin sanoihin tai esimerkiksi mahdollisuutta tuottaa tekstiä tai keskustella. Myöskään kielioppia ei sieltä opi. Näiden asioiden opettaminen jääkin opettajan ja perinteisen kieltenopetuksen vastuulle, jos jokin muu oppimisratkaisu ei niitä pysty tarjoamaan.
-Opettajan ja oppilaan tukeminen ohjelman tuottamien tietojen avulla
-Opettajan ja oppilaan oppimista voidaan auttaa hyödyntämällä ohjelmiston tuottamaa dataa. Esimerkiksi 10Monkeys -sovellus muistaa mitä oppilas on aiemmin oppinut, ja oppilas näkee oman edistymisensä. Lisäksi opettaja voi seurata kaikkien oppilaiden edistymistä yksilöinä, sekä koko luokkana. Tästä on apua sen havaitsemissa, että kuka oppilaista on eniten avun tarpeessa, ja että kuinka nopeasti luokka kokonaisuutena etenee.
-Maksuttomat sekä kaupalliset viihdepelit opetuksessa
-Myös muita kuin opetuspelejä voidaan käyttää hyödyksi opetuksessa. Oppilailla voidaan esimerkiksi peluuttaa Sims 2:sta ja sen jälkeen antaa tehtäväksi kirjoittaa pelin pohjalta kaunokirjallisia tekstejä.
-% http://www.oph.fi/julkaisut/2012/laatua_e_oppimateriaaleihin
-
-
-\section{Paikannuspohjaiset oppimisratkaisut}
-Myös GPS-paikannukseen perustuvia oppimisratkaisuja on alkanut ilmestyä. Näistä esimerkkejä ovat esimerkiksi Hei Joe ja CityNomadi -ympäristöt. Yleensä GPS-pohjaiset ratkaisut ovat parhaimmillaan kun ympäristö pystytään liittämään mukaan mahdollisimman tukevasti. Esimerkiksi kaupungin historiaan liittyvien kohteiden kiertely ja kohteissa niihin liittyvien tehtävien tekeminen toimivat hyvin.
-% http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti%2FPage%2Fjuttusivu&cid=1351276519632&juttuID=1355755427510
-% https://citynomadi.com
-
-Opetusta voi viedä arkiympäristöihin esimerkiksi gps-pohjaisilla oppimisratkaisuilla, kuten CityNomadi tai Hei Joe -sovelluksilla. Näissä sovelluksissa voi olla valmiita reittejä, tai oppilaat voivat tehdä niitä myös itse. Reitit voivat olla esimerkiksi kaupungin patsaiden kiertelyä, ja kun saavutaan patsaalle, voidaan lukea patsaan esittämään henkilöön liittyvä tarina. Myös esimerkiksi liikuntaan voi kannustaa monella tapaa. Moskovassa metroautomaatista saa lipun ilmaiseksi, jos tekee 30 jalkakyykkyä.
-
-% http://www.hs.fi/ulkomaat/a1383884611093?jako=e5772b9fe7f9a22f030e592a36c5b9d7&ref=og-url
-% https://citynomadi.com
-% http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti%2FPage%2Fjuttusivu&cid=1351276519632&juttuID=1355755427510
-
-\section{Älytaulut opetuksessa}
-Älytaulut ovat luokkahuonetta mullistava tekijä monessa mielessä. Niille opettajien on hyvin helppo tehdä interaktiivista materiaalia, ja myös powerpoint-esityksiin saa eloa, kun onkin aktiivinen toimija kuten liitutaululla, eikä vain dianvaihtaja. Myös oppilaille saa kehitettyä monenlaisia tehtäviä, ja taulut soveltuvat hyvin myös oppimissovellusten ja pelien käyttämiseen. Sovellusta käyttää vain yksi, mutta muiden on helppo seurata tapahtumia. Taululla saa myös helposti aktivoitua oppilaita esimerkiksi erilaisilla järjestelytehtävillä.
-
-\section{Padit opetuksessa}
-Tauluja seuraavat padit, joilla jokainen oppilas voi itsenäisesti tehdä samantyylisiä tehtäviä kuin taulullakin. Padit ovat parhaimmillaan omatoimisessa tehtävien teossa, sillä ne antavat välitöntä palautetta tehtävistä ja jokainen oppilas voi edetä omaan tahtiin, tehtäviä ei tarvitse erikseen tarkistaa, koska padit kertovat jos vastaus meni väärin. Myös yhteistyötä pystytään padien tai tietokoneiden avulla.
-Pilvipohjaiset toimisto-ohjelmistot opetuksessa
-Tietokoneilla esimerkiksi pilvipohjaiset toimisto-ohjelmistot mahdollistavat paljon asoiita jotka aiemmin olivat jopa mahdottomia. Oppilaat voivat tehdä luontevasti samaa ryhmätyötä yhtä aikaa, jakaa keskeneräisetkin tuotokset reaaliaikaisesti koko luokan kanssa ja tehdä töitä myös koulupäivän jälkeen ilman, että niitä tarvitsisi kantaa kotiin.
-
-
-\section{Tulokset}
-// Ennen Internetiä oli täysin mahdollista, että opettaja tiesi aiheista eniten ja pystyi myös tätä tietoa oppilailleen jakamaan. Nykyään kuitenkin monissa aineissa oppilaat pystyvät itse käymään erittäin hyvin jäsenneltyjä tietolähteitä lävitse varsin nopeasti, jolloin opettaja jää enemmän statistin rooliin. Opettajan rooliksi muotoutuukin entistä enemmän valmentajan rooli, jossa hän pyrkii ohjaamaan oppilaiden yksilöllistä oppimista mahdollisimman tehokkaasti ja auttamaan ymmärtämään juuri niissä kohdissa jossa kullakin on ongelmia, muiden asioiden jäädessä enemmän itse opiskelun varaan.
-
-Innovatiivisia opetusmenetelmiä käyttämällä esimerkiksi harjoitustehtävien tarkastuksen voi pitkälti jättää koneiden huoleksi, jolloin aiemmin yhteisesti tähän käytetty aika vapautuu oppilaiden neuvomiseen tehtävissä yksilöllisesti. Lisäksi koneen tarkistaessa tehtävät heti kun ne on tehnyt, oppilas saa palautteen ja osaa kysyä apua oikeaan ratkaisuun heti, sen sijaan, että apua saisi vasta sitten kun havaitsee yhteisen tarkistuksen yhteydessä vastanneensa väärin. Usein tässä vaiheessa apu jää myös saamatta, koska ollaan jo siirtymässä seuraavaan aiheeseen tai “tehtävät on täytynyt olla vain tehtynä, muttei oikein”.
-
-Myös opiskelun viihdyttävyyttä pystytään lisäämään varsin keveinkin teknisin ratkaisuin. Oppilaalle eteneminen voidaan esimerkiksi näyttää selkeästi kiinnostavalla grafiikalla, kun aiemmin se on näkynyt vain kirjan sivujen etenemisenä. Aiemminkin opettaja on tietysti voinut palkita oppilaita esimerkiksi tarroilla vihkoon, mutta koneen antama tunnustus vaikuttaisi erityisen toimivalta, mahdollisesti koska palaute on välittömämpää.
-
 
 
 
