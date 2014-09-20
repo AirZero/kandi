@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.3 $
+% $ biblatex bbl format version 2.4 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist{entry}{cms}
+  \sortlist{cms}{cms}
     \entry{innovaatio}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=f6dd76f8fee946d6948eb98746e3e886}{businessdictionary.com}{b\bibinitperiod}{}{}{}{}{}{}}%
@@ -32,6 +32,7 @@
       \strng{namehash}{f6dd76f8fee946d6948eb98746e3e886}
       \strng{fullhash}{f6dd76f8fee946d6948eb98746e3e886}
       \field{sortinit}{b}
+      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{12}
@@ -64,6 +65,7 @@
       \strng{namehash}{ea8d3191113b804db88b8a48bca600ec}
       \strng{fullhash}{0bce18a65ba0e6f3faee3c13bedd84a0}
       \field{sortinit}{E}
+      \field{sortinithash}{655e26c7438ff123e5c69c6c3f702107}
       \field{labelyear}{2008}
       \field{datelabelsource}{}
       \field{labeltitle}{Lasten ja nuorten väkivaltakokemukset}
@@ -95,6 +97,7 @@
       \strng{namehash}{31ef0415219e3902535f0ffd9fdd1fba}
       \strng{fullhash}{31ef0415219e3902535f0ffd9fdd1fba}
       \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
       \field{labelyear}{2012}
       \field{datelabelsource}{}
       \field{labeltitle}{HYVÄ, PAHA KOULU}
@@ -111,33 +114,6 @@
       \verb http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva%5C_paha%5C_koulu.pdf
       \endverb
     \endentry
-    \entry{peleja}{online}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=b6ea8ffce535dc2773f5db24ec0c2713}{hyvatkaytannot.oph.fi}{h\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=b6ea8ffce535dc2773f5db24ec0c2713}{hyvatkaytannot.oph.fi}{h\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Opetushallitus}%
-      }
-      \strng{namehash}{b6ea8ffce535dc2773f5db24ec0c2713}
-      \strng{fullhash}{b6ea8ffce535dc2773f5db24ec0c2713}
-      \field{sortinit}{h}
-      \field{extrayear}{1}
-      \field{labelyear}{2014}
-      \field{labelmonth}{08}
-      \field{labelday}{22}
-      \field{datelabelsource}{url}
-      \field{labeltitle}{ePelipaja – oppilaat tekevät oppimispelejä}
-      \field{title}{ePelipaja – oppilaat tekevät oppimispelejä}
-      \field{urlday}{22}
-      \field{urlmonth}{08}
-      \field{urlyear}{2014}
-      \verb{url}
-      \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
-      \endverb
-    \endentry
     \entry{hyvatkaytannot}{online}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b6ea8ffce535dc2773f5db24ec0c2713}{hyvatkaytannot.oph.fi}{h\bibinitperiod}{}{}{}{}{}{}}%
@@ -151,7 +127,8 @@
       \strng{namehash}{b6ea8ffce535dc2773f5db24ec0c2713}
       \strng{fullhash}{b6ea8ffce535dc2773f5db24ec0c2713}
       \field{sortinit}{h}
-      \field{extrayear}{2}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{extrayear}{1}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{22}
@@ -163,6 +140,64 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb https://hyvatkaytannot.oph.fi
+      \endverb
+    \endentry
+    \entry{peleja}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b6ea8ffce535dc2773f5db24ec0c2713}{hyvatkaytannot.oph.fi}{h\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b6ea8ffce535dc2773f5db24ec0c2713}{hyvatkaytannot.oph.fi}{h\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Opetushallitus}%
+      }
+      \strng{namehash}{b6ea8ffce535dc2773f5db24ec0c2713}
+      \strng{fullhash}{b6ea8ffce535dc2773f5db24ec0c2713}
+      \field{sortinit}{h}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{extrayear}{2}
+      \field{labelyear}{2014}
+      \field{labelmonth}{08}
+      \field{labelday}{22}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{ePelipaja – oppilaat tekevät oppimispelejä}
+      \field{title}{ePelipaja – oppilaat tekevät oppimispelejä}
+      \field{urlday}{22}
+      \field{urlmonth}{08}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
+      \endverb
+    \endentry
+    \entry{laatua}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=cd926f0d7ad601afa052af0cc77d9e40}{Ilomäki}{I\bibinitperiod}{Liisa}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cd926f0d7ad601afa052af0cc77d9e40}{Ilomäki}{I\bibinitperiod}{Liisa}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Opetushallitus}%
+      }
+      \strng{namehash}{cd926f0d7ad601afa052af0cc77d9e40}
+      \strng{fullhash}{cd926f0d7ad601afa052af0cc77d9e40}
+      \field{sortinit}{I}
+      \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Laatua e-oppimateriaaleihin}
+      \field{subtitle}{E-oppimateriaalit opetuksessa ja oppimisessa}
+      \field{title}{Laatua e-oppimateriaaleihin}
+      \field{urlday}{28}
+      \field{urlmonth}{08}
+      \field{urlyear}{2014}
+      \field{year}{2012}
+      \verb{doi}
+      \verb ISSN 1798-8969
+      \endverb
+      \verb{url}
+      \verb http://www.oph.fi/download/144415%5C_Laatua%5C_e-oppimateriaaleihin%5C_2.pdf
       \endverb
     \endentry
     \entry{palkatonTyo}{book}{}
@@ -178,6 +213,7 @@
       \strng{namehash}{94b9dfa47933ecbc059900a398f17ced}
       \strng{fullhash}{94b9dfa47933ecbc059900a398f17ced}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2005}
       \field{datelabelsource}{}
       \field{labeltitle}{Inhimillistä toimintaa? - Opettajan työviihtyvyys}
@@ -216,6 +252,7 @@
       \strng{namehash}{dfbff6b00c8f0ed486a8e1d5faf59252}
       \strng{fullhash}{7d5fcea701e3629a07a2396c556ec778}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2012}
       \field{datelabelsource}{}
       \field{labeltitle}{KOULUKOKEMUSTEN KANSAINVÄLISTÄ VERTAILUA 2010 SEKÄ MUUTOKSET SUOMESSA JA POHJOISMAISSA 1994–2010 – WHO-KOULULAISTUTKIMUS}
@@ -245,6 +282,7 @@
       \strng{namehash}{c0e57560a3ec7781153f8223813eb506}
       \strng{fullhash}{c0e57560a3ec7781153f8223813eb506}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2011}
       \field{datelabelsource}{}
       \field{labeltitle}{Opetusteknologia koulun arjessa}
@@ -275,6 +313,7 @@
       \strng{namehash}{c35d71fc10e8b1d631294255f4bcd336}
       \strng{fullhash}{c35d71fc10e8b1d631294255f4bcd336}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2008}
       \field{datelabelsource}{}
       \field{labeltitle}{Kohti innovatiivista tietotekniikan opetuskäyttöä}
@@ -304,6 +343,7 @@
       \strng{namehash}{49914d5bb5a5659907a53b19e9b8eef2}
       \strng{fullhash}{49914d5bb5a5659907a53b19e9b8eef2}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Erinomaisesta huipuksi}
@@ -332,6 +372,7 @@
       \strng{namehash}{49914d5bb5a5659907a53b19e9b8eef2}
       \strng{fullhash}{49914d5bb5a5659907a53b19e9b8eef2}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{23}
@@ -371,6 +412,7 @@
       \strng{namehash}{650f7988420a2bb085b5ce7415a5695e}
       \strng{fullhash}{8cbfb435ead981af186b4a570580a652}
       \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Pisa 2012 ensituloksia}
@@ -399,6 +441,7 @@
       \strng{namehash}{cbc51e971fa589bcee801544013159fc}
       \strng{fullhash}{cbc51e971fa589bcee801544013159fc}
       \field{sortinit}{L}
+      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{22}
@@ -410,6 +453,32 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb http://www.digitoday.fi/tyo-ja-ura/2009/05/08/helsingin-yliopistossa-opiskellaan-tietotekniikkaa-legoilla/200911694/66
+      \endverb
+    \endentry
+    \entry{itviikkoWilen}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=882f84fb22e1a1ddf97abcfd4fe17cff}{Linnake}{L\bibinitperiod}{Tuomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=882f84fb22e1a1ddf97abcfd4fe17cff}{Linnake}{L\bibinitperiod}{Tuomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IT-Viikko}%
+      }
+      \strng{namehash}{882f84fb22e1a1ddf97abcfd4fe17cff}
+      \strng{fullhash}{882f84fb22e1a1ddf97abcfd4fe17cff}
+      \field{sortinit}{L}
+      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Opettajat tunnustavat puutteet it-taidoissa}
+      \field{title}{Opettajat tunnustavat puutteet it-taidoissa}
+      \field{urlday}{16}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.itviikko.fi/ihmiset-ja-ura/2010/08/02/opettajat-tunnustavat-puutteet-it-taidoissa/201010612/7
       \endverb
     \endentry
     \entry{maot}{online}{}
@@ -425,6 +494,7 @@
       \strng{namehash}{a93b99d602719540410148a29116f0e9}
       \strng{fullhash}{a93b99d602719540410148a29116f0e9}
       \field{sortinit}{m}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{22}
@@ -436,6 +506,25 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb http://maot.fi/oppimisymparisto/oppimisympariston-perusidea/
+      \endverb
+    \endentry
+    \entry{memrise}{online}{}
+      \list{publisher}{1}{%
+        {Memrise}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
+      \field{labelyear}{2014}
+      \field{labelmonth}{08}
+      \field{labelday}{27}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{Memrise}
+      \field{title}{Memrise}
+      \field{urlday}{27}
+      \field{urlmonth}{08}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://memrise.com
       \endverb
     \endentry
     \entry{skrolliRobot}{book}{}
@@ -451,6 +540,7 @@
       \strng{namehash}{c2e74ca2cca897a650f87760b734a7ec}
       \strng{fullhash}{c2e74ca2cca897a650f87760b734a7ec}
       \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
       \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Ohjelmoitavan Legon historiaa}
@@ -479,6 +569,7 @@
       \strng{namehash}{753c47b91e1c6dcb752f7b24488ef635}
       \strng{fullhash}{753c47b91e1c6dcb752f7b24488ef635}
       \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labelyear}{2014}
       \field{labelmonth}{08}
       \field{labelday}{22}
@@ -505,6 +596,7 @@
       \strng{namehash}{b40edda187c3b2115802e81f59f70921}
       \strng{fullhash}{b40edda187c3b2115802e81f59f70921}
       \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
       \field{labelyear}{2012}
       \field{datelabelsource}{}
       \field{labeltitle}{The Flipped Classroom}

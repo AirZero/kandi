@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "malliopas - Copy.dvi" "malliopas - Copy.pdf" "malliopas - Copy" 0
+  "malliopas - Copy.dvi" 0 -1 0 "latex"
+  (generated)
+  "malliopas - Copy.pdf"
+["latex"] 0 "malliopas - Copy.tex" "malliopas - Copy.dvi" "malliopas - Copy" 0
+  "malliopas - Copy.aux" 1411217894 9 a94a2480d3289e625eea47cd1b285758 ""
+  "malliopas - Copy.tex" 0 -1 0 ""
+  (generated)
+  "malliopas - Copy.log"
+  "malliopas - Copy.dvi"
