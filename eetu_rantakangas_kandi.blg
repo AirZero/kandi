@@ -1,26 +1,19 @@
-<<<<<<< HEAD
-[4] Config.pm:320> INFO - This is Biber 1.9
-[6] Config.pm:323> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
-[203] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[205] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
-[969] Biber.pm:635> INFO - Found 20 citekeys in bib section 0
-[1183] Biber.pm:3051> INFO - Processing section 0
-[1365] Biber.pm:3189> INFO - Looking for bibtex format file 'eetu_rantakangas_kandi.bib' for section 0
-[1400] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[1433] bibtex.pm:864> INFO - Found BibTeX data source 'eetu_rantakangas_kandi.bib'
-[1688] Utils.pm:144> WARN - BibTeX subsystem: C:\Users\Eetu\AppData\Local\Temp\9CUrg0Ktp2\eetu_rantakangas_kandi.bib_7476.utf8, line 202, warning: 91 characters of junk seen at toplevel
-[3600] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3601] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3602] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[3603] Biber.pm:2928> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
-[3605] Biber.pm:2932> INFO - No sort tailoring available for locale 'en-US'
-[4098] bbl.pm:517> INFO - Writing 'eetu_rantakangas_kandi.bbl' with encoding 'UTF-8'
-[4115] bbl.pm:606> INFO - Output to eetu_rantakangas_kandi.bbl
-[4132] Biber.pm:106> INFO - WARNINGS: 1
-=======
-[0] Config.pm:318> INFO - This is Biber 1.8
-[1] Config.pm:321> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
-[53] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
-[248] Utils.pm:185> ERROR - Cannot find control file 'eetu_rantakangas_kandi.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[248] Biber.pm:109> INFO - ERRORS: 1
->>>>>>> 604f268cf60201cab93739a3ae5b63e55d9fd85c
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
+[45] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[45] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
+[159] Biber.pm:635> INFO - Found 21 citekeys in bib section 0
+[199] Biber.pm:3051> INFO - Processing section 0
+[240] Biber.pm:3189> INFO - Looking for bibtex format file 'eetu_rantakangas_kandi.bib' for section 0
+[247] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[255] bibtex.pm:864> INFO - Found BibTeX data source 'eetu_rantakangas_kandi.bib'
+[311] Utils.pm:144> WARN - BibTeX subsystem: C:\Users\Eetu\AppData\Local\Temp\kodxsc3bG8\eetu_rantakangas_kandi.bib_9032.utf8, line 202, warning: 91 characters of junk seen at toplevel
+[313] Utils.pm:144> WARN - I didn't find a database entry for '(' (section 0)
+[619] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[620] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[620] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[621] Biber.pm:2928> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
+[621] Biber.pm:2932> INFO - No sort tailoring available for locale 'en-US'
+[705] bbl.pm:517> INFO - Writing 'eetu_rantakangas_kandi.bbl' with encoding 'UTF-8'
+[712] bbl.pm:606> INFO - Output to eetu_rantakangas_kandi.bbl
+[715] Biber.pm:106> INFO - WARNINGS: 2

@@ -1,9 +1,9 @@
 # Fdb version 3
-["biber malliopas - Copy"] 1411582999 "malliopas - Copy.bcf" "malliopas - Copy.bbl" "malliopas - Copy" 1411583004
-  "malliopas - Copy.bcf" 1411583004 105957 ba8d7cbfd2a8319a40673a242f2b3573 ""
+["biber malliopas"] 1411583007 "malliopas.bcf" "malliopas.bbl" "malliopas" 1411583013
+  "malliopas.bcf" 1411583013 105957 ba8d7cbfd2a8319a40673a242f2b3573 ""
   (generated)
-  "malliopas - Copy.bbl"
-["latex"] 1411583001 "malliopas - Copy.tex" "malliopas - Copy.dvi" "malliopas - Copy" 1411583004
+  "malliopas.bbl"
+["latex"] 1411583011 "malliopas.tex" "malliopas.dvi" "malliopas" 1411583013
   "c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1411070742 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2014/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1411069992 1384 4632f5e54900a7dadbb83f555bc61e56 ""
   "c:/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1411073847 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -99,18 +99,18 @@
   "c:/texlive/2014/texmf.cnf" 1411074697 497 7277663fd190ea5a4fe922b182dc7be2 ""
   "etoolbox.sty" 1410817867 42896 02561c41bb08b479074b6e76f0b7d639 ""
   "gradu3.cls" 1410817867 19055 a640dd19e7e5fe5b04559661038d11e7 ""
-  "malliopas - Copy.aux" 1411583004 1754 7e2b14d221eec7717a999acd7ed7f6ac ""
-  "malliopas - Copy.bbl" 0 -1 0 "biber malliopas - Copy"
-  "malliopas - Copy.out" 1411583002 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "malliopas - Copy.tex" 1410817867 27819 47e3a4b4e988ea1bf80a35ee44b39691 ""
-  "malliopas - Copy.toc" 1411583002 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "malliopas.aux" 1411583013 1754 7e2b14d221eec7717a999acd7ed7f6ac ""
+  "malliopas.bbl" 0 -1 0 "biber malliopas"
+  "malliopas.out" 1411583012 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "malliopas.tex" 1410817868 27819 2d3a0d00cedb7535e31d5315500403cd ""
+  "malliopas.toc" 1411583012 0 d41d8cd98f00b204e9800998ecf8427e ""
   "opus-kissa" 0 -1 0 ""
   (generated)
-  "malliopas - Copy.toc"
-  "malliopas - Copy.out"
-  "malliopas - Copy.lof"
-  "malliopas - Copy.bcf"
-  "malliopas - Copy.log"
-  "malliopas - Copy.aux"
-  "malliopas - Copy.lot"
-  "malliopas - Copy.dvi"
+  "malliopas.dvi"
+  "malliopas.bcf"
+  "malliopas.aux"
+  "malliopas.lot"
+  "malliopas.log"
+  "malliopas.out"
+  "malliopas.lof"
+  "malliopas.toc"
