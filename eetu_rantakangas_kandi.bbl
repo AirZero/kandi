@@ -583,6 +583,35 @@
       \verb https://korppi.jyu.fi/kotka/course/student/generalCourseInfo.jsp?course=111801
       \endverb
     \endentry
+    \entry{heijoe}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=724b72210b159feaba4b39dd1579aace}{Sutinen}{S\bibinitperiod}{Sirpa}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=724b72210b159feaba4b39dd1579aace}{Sutinen}{S\bibinitperiod}{Sirpa}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Opettaja-lehti}%
+      }
+      \strng{namehash}{724b72210b159feaba4b39dd1579aace}
+      \strng{fullhash}{724b72210b159feaba4b39dd1579aace}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Modernit suunnistajat}
+      \field{title}{Modernit suunnistajat}
+      \field{urlday}{16}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2013}
+      \verb{doi}
+      \verb ISSN 1458-4395
+      \endverb
+      \verb{url}
+      \verb %5Curl%7B%20http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510%7D
+      \endverb
+    \endentry
     \entry{flipped}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b40edda187c3b2115802e81f59f70921}{Tucker}{T\bibinitperiod}{Bill}{B\bibinitperiod}{}{}{}{}}%
