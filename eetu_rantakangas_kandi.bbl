@@ -79,7 +79,7 @@
       \verb ISBN 978-951-815-150-3
       \endverb
       \verb{url}
-      \verb http://www.poliisi.fi/poliisi/poliisioppilaitos/home.nsf/files/lapsiuhritutkimus%5C_raportti/%5C$file/lapsiuhritutkimus%5C_raportti.pdf
+      \verb http://www.poliisi.fi/poliisi/poliisioppilaitos/home.nsf/files/lapsiuhritutkimus_raportti/%5C$file/lapsiuhritutkimus_raportti.pdf
       \endverb
     \endentry
     \entry{kouluViihtyvyys}{book}{}
@@ -111,7 +111,7 @@
       \verb ISBN 978-952-5994-24-7
       \endverb
       \verb{url}
-      \verb http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva%5C_paha%5C_koulu.pdf
+      \verb http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva_paha_koulu.pdf
       \endverb
     \endentry
     \entry{hyvatkaytannot}{online}{}
@@ -197,7 +197,7 @@
       \verb ISSN 1798-8969
       \endverb
       \verb{url}
-      \verb http://www.oph.fi/download/144415%5C_Laatua%5C_e-oppimateriaaleihin%5C_2.pdf
+      \verb http://www.oph.fi/download/144415_Laatua_e-oppimateriaaleihin_2.pdf
       \endverb
     \endentry
     \entry{palkatonTyo}{book}{}
@@ -266,7 +266,7 @@
       \verb ISBN 978-952-13-5245-4
       \endverb
       \verb{url}
-      \verb http://www.oph.fi/download/142520%5C_Koulukokemusten%5C_kansainvalista%5C_vertailua%5C_2010%5C_seka%5C_muutokset%5C_Suomessa%5C_ja%5C_Pohjoismaissa%5C_1994-2010%5C_WHO-Koululaistutkimus%5C_HBSC-Study%5C_%7B%7D.pdf
+      \verb http://www.oph.fi/download/142520_Koulukokemusten_kansainvalista_vertailua_2010_seka_muutokset_Suomessa_ja_Pohjoismaissa_1994-2010_WHO-Koululaistutkimus_HBSC-Study_.pdf
       \endverb
     \endentry
     \entry{koulunArki}{book}{}
@@ -295,7 +295,7 @@
       \verb ISBN 978-951-39-4198-7
       \endverb
       \verb{url}
-      \verb http://ktl.jyu.fi/img/portal/19717/D094%5C_netti.pdf
+      \verb http://ktl.jyu.fi/img/portal/19717/D094_netti.pdf
       \endverb
     \endentry
     \entry{sites}{book}{}
@@ -328,6 +328,33 @@
       \endverb
       \verb{url}
       \verb http://ktl.jyu.fi/img/portal/13816/SITES-julkaisu.pdf?cs=1228198530
+      \endverb
+    \endentry
+    \entry{kenttala}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=132a110d3810509f7f4019ba844c32b6}{Kenttälä}{K\bibinitperiod}{Veera}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=132a110d3810509f7f4019ba844c32b6}{Kenttälä}{K\bibinitperiod}{Veera}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jyväskylän yliopisto, tietotekniikan laitos}%
+      }
+      \strng{namehash}{132a110d3810509f7f4019ba844c32b6}
+      \strng{fullhash}{132a110d3810509f7f4019ba844c32b6}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Tieto- ja viestintätekniikka peruskoulussa}
+      \field{subtitle}{opettajaopiskelijat luokanopettajien pedagogisena tukena}
+      \field{title}{Tieto- ja viestintätekniikka peruskoulussa}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://jyx.jyu.fi/dspace/bitstream/handle/123456789/41941/URN:NBN:fi:jyu-201308092134.pdf?sequence=1
       \endverb
     \endentry
     \entry{KanadanMalli}{book}{}
