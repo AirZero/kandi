@@ -527,6 +527,62 @@
       \verb http://memrise.com
       \endverb
     \endentry
+    \entry{simut}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=52c2f718a000ef01eeede0dec3547b4b}{Mikkonen}{M\bibinitperiod}{Valde}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=52c2f718a000ef01eeede0dec3547b4b}{Mikkonen}{M\bibinitperiod}{Valde}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Ajoneuvohallintakeskus}%
+      }
+      \strng{namehash}{52c2f718a000ef01eeede0dec3547b4b}
+      \strng{fullhash}{52c2f718a000ef01eeede0dec3547b4b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Simulaattori kuljettajaopetuksen pimeäajoharjoituksissa}
+      \field{subtitle}{Kokeilun seurantaraportti}
+      \field{title}{Simulaattori kuljettajaopetuksen pimeäajoharjoituksissa}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2007}
+      \verb{doi}
+      \verb ISSN 1456-4181
+      \endverb
+      \verb{url}
+      \verb http://www.trafi.fi/filebank/a/1321969231/1757c0032e3b40a818aeae4bd391d893/1287-AKE107Simulaattoripimeaajoharjoituksissa.pdf
+      \endverb
+    \endentry
+    \entry{kyykky}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=77e12e1d1c924215e555b77dc714f6f6}{Niemeläinen}{N\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=77e12e1d1c924215e555b77dc714f6f6}{Niemeläinen}{N\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Helsingin Sanomat}%
+      }
+      \strng{namehash}{77e12e1d1c924215e555b77dc714f6f6}
+      \strng{fullhash}{77e12e1d1c924215e555b77dc714f6f6}
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Moskovassa voi lunastaa metrolipun 30 jalkakyykyllä}
+      \field{title}{Moskovassa voi lunastaa metrolipun 30 jalkakyykyllä}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.hs.fi/ulkomaat/a1383884611093?jako=e5772b9fe7f9a22f030e592a36c5b9d7&ref=og-url#
+      \endverb
+    \endentry
     \entry{skrolliRobot}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=c2e74ca2cca897a650f87760b734a7ec}{Pieviläinen}{P\bibinitperiod}{Tomi}{T\bibinitperiod}{}{}{}{}}%
@@ -609,7 +665,7 @@
       \verb ISSN 1458-4395
       \endverb
       \verb{url}
-      \verb %5Curl%7B%20http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510%7D
+      \verb http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510
       \endverb
     \endentry
     \entry{flipped}{book}{}
@@ -635,7 +691,7 @@
       \field{urlyear}{2014}
       \field{year}{2012}
       \verb{url}
-      \verb http://educationnext.org/files/ednext%5C_20121%5C_BTucker.pdf
+      \verb http://educationnext.org/files/ednext_20121_BTucker.pdf
       \endverb
     \endentry
   \endsortlist
