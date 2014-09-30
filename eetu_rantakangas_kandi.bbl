@@ -695,6 +695,36 @@
       \verb http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510
       \endverb
     \endentry
+    \entry{flow}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ca866e0267155dac149cf93b44f85345}{Sweetser}{S\bibinitperiod}{Penelope}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af7cb0b8b767952e55cd3fa61f5c8ee7}{Wyeth}{W\bibinitperiod}{Peta}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ca866e0267155dac149cf93b44f85345}{Sweetser}{S\bibinitperiod}{Penelope}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=af7cb0b8b767952e55cd3fa61f5c8ee7}{Wyeth}{W\bibinitperiod}{Peta}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Computers in Entertainment (CIE) - Theoretical}%
+        {Practical Computer Applications in Entertainment}%
+      }
+      \strng{namehash}{d5182f8f2e0f13006357d365a080b059}
+      \strng{fullhash}{d5182f8f2e0f13006357d365a080b059}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labeltitle}{GameFlow}
+      \field{subtitle}{a model for evaluating player enjoyment in games}
+      \field{title}{GameFlow}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1077253
+      \endverb
+    \endentry
     \entry{flipped}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b40edda187c3b2115802e81f59f70921}{Tucker}{T\bibinitperiod}{Bill}{B\bibinitperiod}{}{}{}{}}%
@@ -719,6 +749,34 @@
       \field{year}{2012}
       \verb{url}
       \verb http://educationnext.org/files/ednext_20121_BTucker.pdf
+      \endverb
+    \endentry
+    \entry{kemia}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5855bfc3d0103cd2a7356f726ecb0ef5}{Tuukkanen}{T\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5855bfc3d0103cd2a7356f726ecb0ef5}{Tuukkanen}{T\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Computers in Entertainment (CIE) - Theoretical}%
+        {Practical Computer Applications in Entertainment}%
+      }
+      \strng{namehash}{5855bfc3d0103cd2a7356f726ecb0ef5}
+      \strng{fullhash}{5855bfc3d0103cd2a7356f726ecb0ef5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
+      \field{subtitle}{a model for evaluating player enjoyment in games}
+      \field{title}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1077253
       \endverb
     \endentry
   \endsortlist
