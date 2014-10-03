@@ -200,6 +200,37 @@
       \verb http://www.oph.fi/download/144415_Laatua_e-oppimateriaaleihin_2.pdf
       \endverb
     \endentry
+    \entry{ritva}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jyväskylän yliopisto}%
+      }
+      \strng{namehash}{eec477db8d355dccee2c22d858bfcb93}
+      \strng{fullhash}{eec477db8d355dccee2c22d858bfcb93}
+      \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
+      \field{title}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
+      \field{urlday}{16}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2012}
+      \verb{doi}
+      \verb ISBN 978-951-39-5066-8
+      \endverb
+      \verb{url}
+      \verb https://jyx.jyu.fi/dspace/bitstream/handle/123456789/40747/978-951-39-5066-8.pdf?sequence=2
+      \endverb
+    \endentry
     \entry{palkatonTyo}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=94b9dfa47933ecbc059900a398f17ced}{Kähkönen}{K\bibinitperiod}{Mikko}{M\bibinitperiod}{}{}{}{}}%
@@ -780,7 +811,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{(}
 \endrefsection
 \endinput
 
