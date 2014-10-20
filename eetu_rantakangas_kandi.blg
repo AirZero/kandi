@@ -1,16 +1,16 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
-[0] Config.pm:323> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
-[44] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[44] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
-[168] Biber.pm:635> INFO - Found 26 citekeys in bib section 0
-[207] Biber.pm:3051> INFO - Processing section 0
-[246] Biber.pm:3189> INFO - Looking for bibtex format file 'eetu_rantakangas_kandi.bib' for section 0
-[254] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[261] bibtex.pm:864> INFO - Found BibTeX data source 'eetu_rantakangas_kandi.bib'
-[703] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[703] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[703] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[704] Biber.pm:2928> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
-[704] Biber.pm:2932> INFO - No sort tailoring available for locale 'en-US'
-[812] bbl.pm:517> INFO - Writing 'eetu_rantakangas_kandi.bbl' with encoding 'UTF-8'
-[818] bbl.pm:606> INFO - Output to eetu_rantakangas_kandi.bbl
+[1] Config.pm:323> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
+[47] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[48] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
+[184] Biber.pm:635> INFO - Found 26 citekeys in bib section 0
+[226] Biber.pm:3051> INFO - Processing section 0
+[273] Biber.pm:3189> INFO - Looking for bibtex format file 'eetu_rantakangas_kandi.bib' for section 0
+[281] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[288] bibtex.pm:864> INFO - Found BibTeX data source 'eetu_rantakangas_kandi.bib'
+[738] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[738] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[738] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[739] Biber.pm:2928> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
+[739] Biber.pm:2932> INFO - No sort tailoring available for locale 'en-US'
+[865] bbl.pm:517> INFO - Writing 'eetu_rantakangas_kandi.bbl' with encoding 'UTF-8'
+[872] bbl.pm:606> INFO - Output to eetu_rantakangas_kandi.bbl
