@@ -111,7 +111,7 @@
       \verb ISBN 978-952-5994-24-7
       \endverb
       \verb{url}
-      \verb %5Cnewline%20http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva_paha_koulu.pdf
+      \verb http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva_paha_koulu.pdf
       \endverb
     \endentry
     \entry{hyvatkaytannot}{online}{}
@@ -167,7 +167,7 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \verb{url}
-      \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/%5Cnewline?q=e1f35a48c49942671f060aa99238d01d
+      \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
       \endverb
     \endentry
     \entry{laatua}{book}{}
@@ -297,7 +297,7 @@
       \verb ISBN 978-952-13-5245-4
       \endverb
       \verb{url}
-      \verb http://www.oph.fi/download/142520_Koulukokemusten_kansainvalista_vertailua_2010_seka_muutokset_Suomessa_ja_Pohjoismaissa_%5Cnewline1994-2010_WHO-Koululaistutkimus_HBSC-Study_.pdf
+      \verb http://www.oph.fi/download/142520_Koulukokemusten_kansainvalista_vertailua_2010_seka_muutokset_Suomessa_ja_Pohjoismaissa_1994-2010_WHO-Koululaistutkimus_HBSC-Study_.pdf
       \endverb
     \endentry
     \entry{koulunArki}{book}{}
@@ -585,7 +585,7 @@
       \verb ISSN 1456-4181
       \endverb
       \verb{url}
-      \verb http://www.trafi.fi/filebank/a/1321969231/%5Cnewline1757c0032e3b40a818aeae4bd391d893/1287-AKE107Simulaattoripimeaajoharjoituksissa.pdf
+      \verb http://www.trafi.fi/filebank/a/1321969231/1757c0032e3b40a818aeae4bd391d893/1287-AKE107Simulaattoripimeaajoharjoituksissa.pdf
       \endverb
     \endentry
     \entry{kyykky}{online}{}

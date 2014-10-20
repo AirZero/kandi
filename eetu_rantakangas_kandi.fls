@@ -167,7 +167,7 @@ INPUT eetu_rantakangas_kandi.out
 INPUT eetu_rantakangas_kandi.out
 INPUT eetu_rantakangas_kandi.out
 INPUT eetu_rantakangas_kandi.out
-OUTPUT eetu_rantakangas_kandi.pdf
+OUTPUT eetu_kandi.pdf
 INPUT ./eetu_rantakangas_kandi.out
 INPUT ./eetu_rantakangas_kandi.out
 OUTPUT eetu_rantakangas_kandi.out
