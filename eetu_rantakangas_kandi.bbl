@@ -82,6 +82,34 @@
       \verb http://www.poliisi.fi/poliisi/poliisioppilaitos/home.nsf/files/lapsiuhritutkimus_raportti/%5C$file/lapsiuhritutkimus_raportti.pdf
       \endverb
     \endentry
+    \entry{gamePaper}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=4bd1eb405e4df3edb34e48f3741fba63}{Gee}{G\bibinitperiod}{James\bibnamedelima Paul}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4bd1eb405e4df3edb34e48f3741fba63}{Gee}{G\bibinitperiod}{James\bibnamedelima Paul}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {E-Learning}%
+        {Digital Media}%
+      }
+      \strng{namehash}{4bd1eb405e4df3edb34e48f3741fba63}
+      \strng{fullhash}{4bd1eb405e4df3edb34e48f3741fba63}
+      \field{sortinit}{G}
+      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Learning by Design}
+      \field{subtitle}{Good Video Games as Learning Machines}
+      \field{title}{Learning by Design}
+      \field{urlday}{23}
+      \field{urlmonth}{08}
+      \field{urlyear}{2014}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://dx.doi.org/10.2304/elea.2005.2.1.5
+      \endverb
+    \endentry
     \entry{kouluViihtyvyys}{book}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=231c8af2a8ba871854f1bc5f4c5c54fc}{Harinen}{H\bibinitperiod}{Päivi}{P\bibinitperiod}{}{}{}{}}%
@@ -170,75 +198,14 @@
       \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
       \endverb
     \endentry
-    \entry{laatua}{book}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=cd926f0d7ad601afa052af0cc77d9e40}{Ilomäki}{I\bibinitperiod}{Liisa}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=cd926f0d7ad601afa052af0cc77d9e40}{Ilomäki}{I\bibinitperiod}{Liisa}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Opetushallitus}%
-      }
-      \strng{namehash}{cd926f0d7ad601afa052af0cc77d9e40}
-      \strng{fullhash}{cd926f0d7ad601afa052af0cc77d9e40}
-      \field{sortinit}{I}
-      \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Laatua e-oppimateriaaleihin}
-      \field{subtitle}{E-oppimateriaalit opetuksessa ja oppimisessa}
-      \field{title}{Laatua e-oppimateriaaleihin}
-      \field{urlday}{28}
-      \field{urlmonth}{08}
-      \field{urlyear}{2014}
-      \field{year}{2012}
-      \verb{doi}
-      \verb ISSN 1798-8969
-      \endverb
-      \verb{url}
-      \verb http://www.oph.fi/download/144415_Laatua_e-oppimateriaaleihin_2.pdf
-      \endverb
-    \endentry
-    \entry{ritva}{book}{}
-      \name{labelname}{2}{}{%
-        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Jyväskylän yliopisto}%
-      }
-      \strng{namehash}{eec477db8d355dccee2c22d858bfcb93}
-      \strng{fullhash}{eec477db8d355dccee2c22d858bfcb93}
-      \field{sortinit}{J}
-      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
-      \field{title}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
-      \field{urlday}{16}
-      \field{urlmonth}{09}
-      \field{urlyear}{2014}
-      \field{year}{2012}
-      \verb{doi}
-      \verb ISBN 978-951-39-5066-8
-      \endverb
-      \verb{url}
-      \verb https://jyx.jyu.fi/dspace/bitstream/handle/123456789/40747/978-951-39-5066-8.pdf?sequence=2
-      \endverb
-    \endentry
-    \entry{palkatonTyo}{book}{}
+    \entry{palkatonTyo}{thesis}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=94b9dfa47933ecbc059900a398f17ced}{Kähkönen}{K\bibinitperiod}{Mikko}{M\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
         {{uniquename=0,hash=94b9dfa47933ecbc059900a398f17ced}{Kähkönen}{K\bibinitperiod}{Mikko}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
+      \list{institution}{1}{%
         {Hämeenlinnan opettajakoulutuslaitos}%
       }
       \strng{namehash}{94b9dfa47933ecbc059900a398f17ced}
@@ -250,6 +217,7 @@
       \field{labeltitle}{Inhimillistä toimintaa? - Opettajan työviihtyvyys}
       \field{subtitle}{Tutkimus perusopetuksessa toimivien opettajien työviihtyvyydestä}
       \field{title}{Inhimillistä toimintaa? - Opettajan työviihtyvyys}
+      \field{type}{mathesis}
       \field{urlday}{04}
       \field{urlmonth}{08}
       \field{urlyear}{2014}
@@ -278,7 +246,7 @@
         {{uniquename=0,hash=45b112fe6aaf43f98bda54ea15467d57}{Kannas}{K\bibinitperiod}{Lasse}{L\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
-        {Hämeenlinnan opettajakoulutuslaitos}%
+        {Opetushallitus}%
       }
       \strng{namehash}{dfbff6b00c8f0ed486a8e1d5faf59252}
       \strng{fullhash}{7d5fcea701e3629a07a2396c556ec778}
@@ -361,7 +329,40 @@
       \verb http://ktl.jyu.fi/img/portal/13816/SITES-julkaisu.pdf?cs=1228198530
       \endverb
     \endentry
-    \entry{KanadanMalli}{book}{}
+    \entry{laatua}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6cdb2cd2560d60c1204bbb9f27b6311f}{Kantosalo}{K\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6cdb2cd2560d60c1204bbb9f27b6311f}{Kantosalo}{K\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=cd926f0d7ad601afa052af0cc77d9e40}{Ilomäki}{I\bibinitperiod}{Liisa}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Opetushallitus}%
+      }
+      \strng{namehash}{6cdb2cd2560d60c1204bbb9f27b6311f}
+      \strng{fullhash}{6cdb2cd2560d60c1204bbb9f27b6311f}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Laatua e-oppimateriaaleihin}
+      \field{subtitle}{E-oppimateriaalit opetuksessa ja oppimisessa}
+      \field{title}{Laatua e-oppimateriaaleihin}
+      \field{urlday}{28}
+      \field{urlmonth}{08}
+      \field{urlyear}{2014}
+      \field{year}{2012}
+      \verb{doi}
+      \verb ISSN 1798-8969
+      \endverb
+      \verb{url}
+      \verb http://www.oph.fi/download/144415_Laatua_e-oppimateriaaleihin_2.pdf
+      \endverb
+    \endentry
+    \entry{KanadanMalli}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=49914d5bb5a5659907a53b19e9b8eef2}{Korkeakivi}{K\bibinitperiod}{Riitta}{R\bibinitperiod}{}{}{}{}}%
       }
@@ -388,34 +389,6 @@
       \endverb
       \verb{url}
       \verb http://www.opettaja.fi/cs/Satellite?c=Page%5C&pagename=OpettajaLehti/Page/juttusivu%5C&cid=1351276519632%5C&juttuID=1355755429769
-      \endverb
-    \endentry
-    \entry{gamePaper}{book}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=49914d5bb5a5659907a53b19e9b8eef2}{Korkeakivi}{K\bibinitperiod}{Riitta}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=49914d5bb5a5659907a53b19e9b8eef2}{Korkeakivi}{K\bibinitperiod}{Riitta}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {University of Wisconsin-Madison}%
-      }
-      \strng{namehash}{49914d5bb5a5659907a53b19e9b8eef2}
-      \strng{fullhash}{49914d5bb5a5659907a53b19e9b8eef2}
-      \field{sortinit}{K}
-      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
-      \field{labelyear}{2014}
-      \field{labelmonth}{08}
-      \field{labelday}{23}
-      \field{datelabelsource}{url}
-      \field{labeltitle}{Learning by Design}
-      \field{subtitle}{Good Video Games as Learning Machines}
-      \field{title}{Learning by Design}
-      \field{urlday}{23}
-      \field{urlmonth}{08}
-      \field{urlyear}{2014}
-      \verb{url}
-      \verb http://www.academiccolab.org/resources/documents/Game%20Paper.pdf
       \endverb
     \endentry
     \entry{koulutHuippua}{book}{}
@@ -614,7 +587,7 @@
       \verb http://www.hs.fi/ulkomaat/a1383884611093?jako=e5772b9fe7f9a22f030e592a36c5b9d7&ref=og-url#
       \endverb
     \endentry
-    \entry{skrolliRobot}{book}{}
+    \entry{skrolliRobot}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=c2e74ca2cca897a650f87760b734a7ec}{Pieviläinen}{P\bibinitperiod}{Tomi}{T\bibinitperiod}{}{}{}{}}%
       }
@@ -699,7 +672,7 @@
       \verb http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510
       \endverb
     \endentry
-    \entry{flow}{book}{}
+    \entry{flow}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=ca866e0267155dac149cf93b44f85345}{Sweetser}{S\bibinitperiod}{Penelope}{P\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=af7cb0b8b767952e55cd3fa61f5c8ee7}{Wyeth}{W\bibinitperiod}{Peta}{P\bibinitperiod}{}{}{}{}}%
@@ -708,28 +681,23 @@
         {{uniquename=0,hash=ca866e0267155dac149cf93b44f85345}{Sweetser}{S\bibinitperiod}{Penelope}{P\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=af7cb0b8b767952e55cd3fa61f5c8ee7}{Wyeth}{W\bibinitperiod}{Peta}{P\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{2}{%
-        {Computers in Entertainment (CIE) - Theoretical}%
-        {Practical Computer Applications in Entertainment}%
-      }
       \strng{namehash}{d5182f8f2e0f13006357d365a080b059}
       \strng{fullhash}{d5182f8f2e0f13006357d365a080b059}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labelyear}{2005}
       \field{datelabelsource}{}
-      \field{labeltitle}{GameFlow}
-      \field{subtitle}{a model for evaluating player enjoyment in games}
-      \field{title}{GameFlow}
-      \field{urlday}{29}
-      \field{urlmonth}{09}
-      \field{urlyear}{2014}
+      \field{labeltitle}{GameFlow: A Model for Evaluating Player Enjoyment in Games}
+      \field{journaltitle}{Computers in Entertainment (CIE) - Theoretical and Practical Computer Applications in Entertainment}
+      \field{number}{3}
+      \field{title}{GameFlow: A Model for Evaluating Player Enjoyment in Games}
+      \field{volume}{3}
       \field{year}{2005}
       \verb{url}
-      \verb http://dl.acm.org/citation.cfm?id=1077253
+      \verb http://doi.acm.org/10.1145/1077246.1077253
       \endverb
     \endentry
-    \entry{flipped}{book}{}
+    \entry{flipped}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b40edda187c3b2115802e81f59f70921}{Tucker}{T\bibinitperiod}{Bill}{B\bibinitperiod}{}{}{}{}}%
       }
@@ -746,10 +714,12 @@
       \field{labelyear}{2012}
       \field{datelabelsource}{}
       \field{labeltitle}{The Flipped Classroom}
+      \field{number}{1}
       \field{title}{The Flipped Classroom}
       \field{urlday}{19}
       \field{urlmonth}{08}
       \field{urlyear}{2014}
+      \field{volume}{12}
       \field{year}{2012}
       \verb{url}
       \verb http://educationnext.org/files/ednext_20121_BTucker.pdf
@@ -762,25 +732,23 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=5855bfc3d0103cd2a7356f726ecb0ef5}{Tuukkanen}{T\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{2}{%
-        {Computers in Entertainment (CIE) - Theoretical}%
-        {Practical Computer Applications in Entertainment}%
+      \list{publisher}{1}{%
+        {Jyväskylän yliopisto, Tietotekniikan laitos}%
       }
       \strng{namehash}{5855bfc3d0103cd2a7356f726ecb0ef5}
       \strng{fullhash}{5855bfc3d0103cd2a7356f726ecb0ef5}
       \field{sortinit}{T}
       \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
-      \field{labelyear}{2005}
+      \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
-      \field{subtitle}{a model for evaluating player enjoyment in games}
       \field{title}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
-      \field{urlday}{29}
-      \field{urlmonth}{09}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
       \field{urlyear}{2014}
-      \field{year}{2005}
+      \field{year}{2013}
       \verb{url}
-      \verb http://dl.acm.org/citation.cfm?id=1077253
+      \verb https://jyx.jyu.fi/dspace/handle/123456789/41213
       \endverb
     \endentry
   \endsortlist
