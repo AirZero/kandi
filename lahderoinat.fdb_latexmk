@@ -1,10 +1,10 @@
 # Fdb version 3
-["latex"] 1411582977 "lahderoinat.tex" "lahderoinat.dvi" "lahderoinat" 1411582993
-  "c:/texlive/2014/texmf-dist/web2c/texmf.cnf" 1411071417 31722 4f52421e59a4b9e910cf18e64c1f2b4a ""
-  "c:/texlive/2014/texmf-var/web2c/pdftex/latex.fmt" 1411074982 3838223 3d13e97d2ac7d4c368c8f202cc95c7e5 ""
-  "c:/texlive/2014/texmf.cnf" 1411074697 497 7277663fd190ea5a4fe922b182dc7be2 ""
-  "lahderoinat.aux" 1411217462 9 a94a2480d3289e625eea47cd1b285758 ""
-  "lahderoinat.tex" 1410817867 822 dac99d46aec0ab9dfffa8b28aab57fff ""
+["latex"] 1415378207 "lahderoinat.tex" "lahderoinat.dvi" "lahderoinat" 1415378208
+  "/usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf" 1398200874 31722 4f52421e59a4b9e910cf18e64c1f2b4a ""
+  "/usr/local/texlive/2014/texmf-var/web2c/pdftex/latex.fmt" 1411551513 3841816 90c0d3855c6d844450ed52c39b472db0 ""
+  "/usr/local/texlive/2014/texmf.cnf" 1411551463 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "lahderoinat.aux" 0 -1 0 ""
+  "lahderoinat.tex" 1410778175 822 cc8acba12ec5458ebcefc8bdba32f84c ""
   (generated)
-  "lahderoinat.dvi"
   "lahderoinat.log"
+  "lahderoinat.dvi"

@@ -1,4 +1,4 @@
-[0] Config.pm:320> INFO - This is Biber 1.9
-[0] Config.pm:323> INFO - Logfile is 'malliopas - Copy.blg'
-[45] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[45] Biber.pm:333> INFO - Reading 'malliopas - Copy.bcf'
+[1] Config.pm:320> INFO - This is Biber 1.9
+[1] Config.pm:323> INFO - Logfile is 'malliopas - Copy.blg'
+[53] biber:277> INFO - === Fri Nov  7, 2014, 18:36:56
+[53] Biber.pm:333> INFO - Reading 'malliopas - Copy.bcf'

@@ -1,16 +1,4 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
 [0] Config.pm:323> INFO - Logfile is 'eetu_rantakangas_kandi.blg'
-[49] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[49] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
-[190] Biber.pm:635> INFO - Found 25 citekeys in bib section 0
-[233] Biber.pm:3051> INFO - Processing section 0
-[274] Biber.pm:3189> INFO - Looking for bibtex format file 'eetu_rantakangas_kandi.bib' for section 0
-[282] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[289] bibtex.pm:864> INFO - Found BibTeX data source 'eetu_rantakangas_kandi.bib'
-[730] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[730] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[731] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[731] Biber.pm:2928> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
-[731] Biber.pm:2932> INFO - No sort tailoring available for locale 'en-US'
-[840] bbl.pm:517> INFO - Writing 'eetu_rantakangas_kandi.bbl' with encoding 'UTF-8'
-[845] bbl.pm:606> INFO - Output to eetu_rantakangas_kandi.bbl
+[53] biber:277> INFO - === Fri Nov  7, 2014, 18:36:45
+[53] Biber.pm:333> INFO - Reading 'eetu_rantakangas_kandi.bcf'
