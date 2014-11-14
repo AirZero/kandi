@@ -75,9 +75,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2008}
-      \verb{doi}
-      \verb ISBN 978-951-815-150-3
-      \endverb
       \verb{url}
       \verb http://www.poliisi.fi/poliisi/poliisioppilaitos/home.nsf/files/lapsiuhritutkimus_raportti/%5C$file/lapsiuhritutkimus_raportti.pdf
       \endverb
@@ -100,11 +97,13 @@
       \field{labelyear}{2005}
       \field{datelabelsource}{}
       \field{labeltitle}{Learning by Design}
+      \field{number}{1}
       \field{subtitle}{Good Video Games as Learning Machines}
       \field{title}{Learning by Design}
       \field{urlday}{23}
       \field{urlmonth}{08}
       \field{urlyear}{2014}
+      \field{volume}{2}
       \field{year}{2005}
       \verb{url}
       \verb http://dx.doi.org/10.2304/elea.2005.2.1.5
@@ -135,9 +134,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2012}
-      \verb{doi}
-      \verb ISBN 978-952-5994-24-7
-      \endverb
       \verb{url}
       \verb http://www.nuorisotutkimusseura.fi/julkaisuja/Hyva_paha_koulu.pdf
       \endverb
@@ -196,6 +192,37 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb https://hyvatkaytannot.oph.fi/kaytanto/1664/?q=e1f35a48c49942671f060aa99238d01d
+      \endverb
+    \endentry
+    \entry{ritva}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{uniquename=0,hash=214201a823f689a3bfb056068ba98257}{Järvelä}{J\bibinitperiod}{Ritva-Liisa}{R\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7b6b2fd847c6fca4429173fd1c8c0db}{Kauppinen}{K\bibinitperiod}{Merja}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jyväskylän yliopisto}%
+      }
+      \strng{namehash}{eec477db8d355dccee2c22d858bfcb93}
+      \strng{fullhash}{eec477db8d355dccee2c22d858bfcb93}
+      \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
+      \field{title}{Oppiainepedagogiikkaa yhteistyössä - Tietotekniikan sekä äidinkielen ja kirjallisuuden integrointi opettajankoulutuksessa}
+      \field{urlday}{16}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{year}{2012}
+      \verb{doi}
+      \verb ISBN 978-951-39-5066-8
+      \endverb
+      \verb{url}
+      \verb https://jyx.jyu.fi/dspace/bitstream/handle/123456789/40747/978-951-39-5066-8.pdf?sequence=2
       \endverb
     \endentry
     \entry{palkatonTyo}{thesis}{}
@@ -261,9 +288,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2012}
-      \verb{doi}
-      \verb ISBN 978-952-13-5245-4
-      \endverb
       \verb{url}
       \verb http://www.oph.fi/download/142520_Koulukokemusten_kansainvalista_vertailua_2010_seka_muutokset_Suomessa_ja_Pohjoismaissa_1994-2010_WHO-Koululaistutkimus_HBSC-Study_.pdf
       \endverb
@@ -290,9 +314,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2011}
-      \verb{doi}
-      \verb ISBN 978-951-39-4198-7
-      \endverb
       \verb{url}
       \verb http://ktl.jyu.fi/img/portal/19717/D094_netti.pdf
       \endverb
@@ -322,9 +343,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2008}
-      \verb{doi}
-      \verb ISBN 978-951-39-3439-2
-      \endverb
       \verb{url}
       \verb http://ktl.jyu.fi/img/portal/13816/SITES-julkaisu.pdf?cs=1228198530
       \endverb
@@ -355,9 +373,6 @@
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2012}
-      \verb{doi}
-      \verb ISSN 1798-8969
-      \endverb
       \verb{url}
       \verb http://www.oph.fi/download/144415_Laatua_e-oppimateriaaleihin_2.pdf
       \endverb
@@ -369,9 +384,6 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=49914d5bb5a5659907a53b19e9b8eef2}{Korkeakivi}{K\bibinitperiod}{Riitta}{R\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Opettaja-lehti}%
-      }
       \strng{namehash}{49914d5bb5a5659907a53b19e9b8eef2}
       \strng{fullhash}{49914d5bb5a5659907a53b19e9b8eef2}
       \field{sortinit}{K}
@@ -379,14 +391,12 @@
       \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Erinomaisesta huipuksi}
+      \field{journaltitle}{Opettaja-lehti}
       \field{title}{Erinomaisesta huipuksi}
       \field{urlday}{23}
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2013}
-      \verb{doi}
-      \verb ISSN 1458-4395
-      \endverb
       \verb{url}
       \verb http://www.opettaja.fi/cs/Satellite?c=Page%5C&pagename=OpettajaLehti/Page/juttusivu%5C&cid=1351276519632%5C&juttuID=1355755429769
       \endverb
@@ -425,9 +435,6 @@
       \field{urlmonth}{07}
       \field{urlyear}{2014}
       \field{year}{2013}
-      \verb{doi}
-      \verb ISBN 978-952-263-241-8
-      \endverb
       \verb{url}
       \verb http://www.minedu.fi/export/sites/default/OPM/Julkaisut/2013/liitteet/okm20.pdf?lang=fi/
       \endverb
@@ -554,9 +561,6 @@
       \field{urlmonth}{09}
       \field{urlyear}{2014}
       \field{year}{2007}
-      \verb{doi}
-      \verb ISSN 1456-4181
-      \endverb
       \verb{url}
       \verb http://www.trafi.fi/filebank/a/1321969231/1757c0032e3b40a818aeae4bd391d893/1287-AKE107Simulaattoripimeaajoharjoituksissa.pdf
       \endverb
@@ -604,14 +608,12 @@
       \field{labelyear}{2013}
       \field{datelabelsource}{}
       \field{labeltitle}{Ohjelmoitavan Legon historiaa}
+      \field{journaltitle}{Skrolli}
       \field{title}{Ohjelmoitavan Legon historiaa}
       \field{urlday}{22}
       \field{urlmonth}{08}
       \field{urlyear}{2014}
       \field{year}{2013}
-      \verb{doi}
-      \verb ISSN 2323-900X
-      \endverb
       \verb{url}
       \verb http://www.skrolli.fi/2013.2.web.pdf
       \endverb
@@ -665,9 +667,6 @@
       \field{urlmonth}{09}
       \field{urlyear}{2014}
       \field{year}{2013}
-      \verb{doi}
-      \verb ISSN 1458-4395
-      \endverb
       \verb{url}
       \verb http://www.opettaja.fi/cs/Satellite?c=Page&pagename=OpettajaLehti/Page/juttusivu&cid=1351276519632&juttuID=1355755427510
       \endverb
@@ -704,9 +703,6 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=b40edda187c3b2115802e81f59f70921}{Tucker}{T\bibinitperiod}{Bill}{B\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Education next}%
-      }
       \strng{namehash}{b40edda187c3b2115802e81f59f70921}
       \strng{fullhash}{b40edda187c3b2115802e81f59f70921}
       \field{sortinit}{T}
@@ -714,6 +710,7 @@
       \field{labelyear}{2012}
       \field{datelabelsource}{}
       \field{labeltitle}{The Flipped Classroom}
+      \field{journaltitle}{Education next}
       \field{number}{1}
       \field{title}{The Flipped Classroom}
       \field{urlday}{19}
@@ -725,7 +722,7 @@
       \verb http://educationnext.org/files/ednext_20121_BTucker.pdf
       \endverb
     \endentry
-    \entry{kemia}{book}{}
+    \entry{kemia}{thesis}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=5855bfc3d0103cd2a7356f726ecb0ef5}{Tuukkanen}{T\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
       }
@@ -743,6 +740,7 @@
       \field{datelabelsource}{}
       \field{labeltitle}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
       \field{title}{Pedagoginen tuki tietotekniikan hyödyntämisessä kemian opetuksessa}
+      \field{type}{mathesis}
       \field{urlday}{31}
       \field{urlmonth}{10}
       \field{urlyear}{2014}
